@@ -1,0 +1,9 @@
+G:\XamarinForms-Samples\Samples\Samples\Samples\bin\Debug\netstandard2.0\Samples.deps.json
+G:\XamarinForms-Samples\Samples\Samples\Samples\bin\Debug\netstandard2.0\Samples.dll
+G:\XamarinForms-Samples\Samples\Samples\Samples\bin\Debug\netstandard2.0\Samples.pdb
+G:\XamarinForms-Samples\Samples\Samples\Samples\obj\Debug\netstandard2.0\Samples.csprojAssemblyReference.cache
+G:\XamarinForms-Samples\Samples\Samples\Samples\obj\Debug\netstandard2.0\Samples.csproj.CoreCompileInputs.cache
+G:\XamarinForms-Samples\Samples\Samples\Samples\obj\Debug\netstandard2.0\Samples.AssemblyInfoInputs.cache
+G:\XamarinForms-Samples\Samples\Samples\Samples\obj\Debug\netstandard2.0\Samples.AssemblyInfo.cs
+G:\XamarinForms-Samples\Samples\Samples\Samples\obj\Debug\netstandard2.0\Samples.dll
+G:\XamarinForms-Samples\Samples\Samples\Samples\obj\Debug\netstandard2.0\Samples.pdb
