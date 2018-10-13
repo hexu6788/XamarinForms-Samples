@@ -723,11 +723,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\新建文件夹\\Samples\\Samples.iOS\\Samples.iOS.csproj",
+      "projectUniqueName": "G:\\XamarinForms-Samples\\Code\\Samples\\Samples.iOS\\Samples.iOS.csproj",
       "projectName": "Samples.iOS",
-      "projectPath": "G:\\新建文件夹\\Samples\\Samples.iOS\\Samples.iOS.csproj",
+      "projectPath": "G:\\XamarinForms-Samples\\Code\\Samples\\Samples.iOS\\Samples.iOS.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "G:\\新建文件夹\\Samples\\Samples.iOS\\obj\\",
+      "outputPath": "G:\\XamarinForms-Samples\\Code\\Samples\\Samples.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -744,8 +744,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "G:\\新建文件夹\\Samples\\Samples\\Samples.csproj": {
-              "projectPath": "G:\\新建文件夹\\Samples\\Samples\\Samples.csproj"
+            "G:\\XamarinForms-Samples\\Code\\Samples\\Samples\\Samples.csproj": {
+              "projectPath": "G:\\XamarinForms-Samples\\Code\\Samples\\Samples\\Samples.csproj"
             }
           }
         }

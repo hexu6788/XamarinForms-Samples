@@ -766,11 +766,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\新建文件夹\\Samples\\Samples.Android\\Samples.Android.csproj",
+      "projectUniqueName": "G:\\XamarinForms-Samples\\Code\\Samples\\Samples.Android\\Samples.Android.csproj",
       "projectName": "Samples.Android",
-      "projectPath": "G:\\新建文件夹\\Samples\\Samples.Android\\Samples.Android.csproj",
+      "projectPath": "G:\\XamarinForms-Samples\\Code\\Samples\\Samples.Android\\Samples.Android.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "G:\\新建文件夹\\Samples\\Samples.Android\\obj\\",
+      "outputPath": "G:\\XamarinForms-Samples\\Code\\Samples\\Samples.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -787,8 +787,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "G:\\新建文件夹\\Samples\\Samples\\Samples.csproj": {
-              "projectPath": "G:\\新建文件夹\\Samples\\Samples\\Samples.csproj"
+            "G:\\XamarinForms-Samples\\Code\\Samples\\Samples\\Samples.csproj": {
+              "projectPath": "G:\\XamarinForms-Samples\\Code\\Samples\\Samples\\Samples.csproj"
             }
           }
         }

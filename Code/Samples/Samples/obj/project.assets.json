@@ -350,11 +350,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\新建文件夹\\Samples\\Samples\\Samples.csproj",
+      "projectUniqueName": "G:\\XamarinForms-Samples\\Code\\Samples\\Samples\\Samples.csproj",
       "projectName": "Samples",
-      "projectPath": "G:\\新建文件夹\\Samples\\Samples\\Samples.csproj",
+      "projectPath": "G:\\XamarinForms-Samples\\Code\\Samples\\Samples\\Samples.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "G:\\新建文件夹\\Samples\\Samples\\obj\\",
+      "outputPath": "G:\\XamarinForms-Samples\\Code\\Samples\\Samples\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
