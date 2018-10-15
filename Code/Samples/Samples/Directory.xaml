@@ -6,6 +6,9 @@
         <StackLayout>
             <Label Text="欢迎来到 Xamarin Forms 示例!" VerticalOptions="Start" HorizontalOptions="Center" Margin="0,20,0,0" />
 
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="按钮" Clicked="Button_Clicked" />
+            </StackLayout>
 
             <StackLayout Margin="0,20,0,0" >
                 <Button Text="图片" Clicked="Image_Clicked" />

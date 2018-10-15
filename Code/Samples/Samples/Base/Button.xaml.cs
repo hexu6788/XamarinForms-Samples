@@ -7,22 +7,21 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Samples
+namespace Samples.Base
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Directory : ContentPage
+	public partial class Button : ContentPage
 	{
-		public Directory ()
+		public Button ()
 		{
 			InitializeComponent ();
 		}
+
         private void Button_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Base.Button());
-        }
-        private void Image_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new Base.Image());
+            var button = sender as Xamarin.Forms.Button;
+
+            button.Text = "已经点击";
         }
     }
 }

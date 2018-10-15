@@ -7,7 +7,11 @@
 
             <StackLayout>
                 <Label Text="示例 1 : 展示一张网络图片" VerticalOptions="Start" HorizontalOptions="Center" Margin="0,20,0,0" />
-                <Image Source="https://avatars0.githubusercontent.com/u/4196818" WidthRequest="100" HeightRequest="100"/>
+
+                <StackLayout>
+                    <Image Source="https://avatars0.githubusercontent.com/u/4196818" WidthRequest="100" HeightRequest="100"/>
+                </StackLayout>
+                
             </StackLayout>
 
             <StackLayout>
