@@ -13,7 +13,23 @@
             <StackLayout Margin="0,20,0,0" >
                 <Button Text="图片" Clicked="Image_Clicked" />
             </StackLayout>
-            
+
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="输入框" Clicked="Entry_Clicked" />
+            </StackLayout>
+
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="文本" Clicked="Label_Clicked" />
+            </StackLayout>
+
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="滑块 (Slider)" Clicked="Slider_Clicked" />
+            </StackLayout>
+
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="盒子视图 (BoxView)" Clicked="BoxView_Clicked" />
+            </StackLayout>
+
         </StackLayout>
 
         

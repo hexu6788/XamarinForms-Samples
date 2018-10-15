@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Samples.Base.Label">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical" VerticalScrollBarVisibility="Never">
+
+            <StackLayout Orientation="Vertical">
+                <StackLayout>
+                    <Label Text="示例 1 : 普通文本" VerticalOptions="Start" HorizontalOptions="Center" Margin="0,20,0,0" />
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center" Padding="0" WidthRequest="200" HeightRequest="50">
+                        <Label Text="普通文本"/>
+                    </StackLayout>
+                </StackLayout>
+
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

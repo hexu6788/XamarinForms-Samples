@@ -22,3 +22,7 @@ G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Base\Image
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory.xaml.g.cs
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\XamlC.stamp
+G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Base\BoxView.xaml.g.cs
+G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Base\Entry.xaml.g.cs
+G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Base\Label.xaml.g.cs
+G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Base\Slider.xaml.g.cs

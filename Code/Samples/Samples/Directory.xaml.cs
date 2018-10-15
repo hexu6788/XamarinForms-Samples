@@ -24,5 +24,27 @@ namespace Samples
         {
             Navigation.PushAsync(new Base.Image());
         }
+
+        private void Entry_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Base.Entry());
+        }
+
+        private void Label_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Base.Label());
+        }
+
+        private void Slider_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Base.Slider());
+        }
+
+        private void BoxView_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Base.BoxView());
+        }
+
+        
     }
 }
