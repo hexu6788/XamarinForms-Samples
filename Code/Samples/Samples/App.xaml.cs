@@ -1,3 +1,4 @@
+using Samples.Directory;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -11,7 +12,8 @@ namespace Samples
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new Directory());
+            MainPage = new NavigationPage(new DirectorySamples());
+            CurrentPage = MainPage;
         }
 
         protected override void OnStart()
@@ -28,5 +30,7 @@ namespace Samples
         {
             // Handle when your app resumes
         }
+
+        public static Page CurrentPage { get; set; }
     }
 }

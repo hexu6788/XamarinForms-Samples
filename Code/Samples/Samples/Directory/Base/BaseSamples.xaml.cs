@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Samples.Base.Layout;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,21 +8,19 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Samples.Base
+namespace Samples
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Button : ContentPage
+	public partial class BaseSamples : ContentPage
 	{
-		public Button ()
+		public BaseSamples()
 		{
 			InitializeComponent ();
 		}
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void LayoutSamples_Clicked(object sender, EventArgs e)
         {
-            var button = sender as Xamarin.Forms.Button;
-
-            button.Text = "已经点击";
+            Navigation.PushAsync(new LayoutSamples());
         }
     }
 }

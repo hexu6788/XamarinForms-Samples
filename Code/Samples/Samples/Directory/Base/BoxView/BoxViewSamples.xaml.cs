@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Samples.Base
+namespace Samples.Directory.Base.BoxView
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class BoxView : ContentPage
+	public partial class BoxViewSamples : ContentPage
 	{
-		public BoxView()
+		public BoxViewSamples ()
 		{
 			InitializeComponent ();
 		}

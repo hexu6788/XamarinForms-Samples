@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Samples.Base
+namespace Samples
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Image : ContentPage
+	public partial class SeniorSamples : ContentPage
 	{
-		public Image ()
+		public SeniorSamples()
 		{
 			InitializeComponent ();
 		}

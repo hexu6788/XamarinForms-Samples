@@ -9,33 +9,41 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Base\BoxView.xaml.cs">
-      <DependentUpon>BoxView.xaml</DependentUpon>
+    <Compile Update="Directory\Base\BaseSamples.xaml.cs">
+      <DependentUpon>BaseSamples.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Directory\DirectorySamples.xaml.cs">
+      <DependentUpon>DirectorySamples.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Directory\Senior\SeniorSamples.xaml.cs">
+      <DependentUpon>SeniorSamples.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Base\Button.xaml">
+    <EmbeddedResource Update="CodeView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Base\Entry.xaml">
+    <EmbeddedResource Update="CodeViewNavigation.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Base\Image.xaml">
+    <EmbeddedResource Update="Directory\Base\BaseSamples.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Base\BoxView.xaml">
+    <EmbeddedResource Update="Directory\Base\BoxView\BoxViewSamples.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Base\Slider.xaml">
+    <EmbeddedResource Update="Directory\Base\Layout\LayoutSamples.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Directory.xaml">
+    <EmbeddedResource Update="Directory\Base\Layout\StackLayout\StackLayoutSamples.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Senior\" />
+    <EmbeddedResource Update="Directory\DirectorySamples.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Directory\Senior\SeniorSamples.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

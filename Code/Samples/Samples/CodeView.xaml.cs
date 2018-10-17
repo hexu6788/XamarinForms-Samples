@@ -7,14 +7,22 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Samples.Base
+namespace Samples
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Slider : ContentPage
+	public partial class CodeView : ContentPage
 	{
-		public Slider ()
+
+		public CodeView (string url)
 		{
 			InitializeComponent ();
-		}
-    }
+
+            var browser = new WebView
+            {
+                Source = url
+            };
+            Content = browser;
+        }
+
+	}
 }
