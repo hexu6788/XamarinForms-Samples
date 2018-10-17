@@ -8,10 +8,10 @@
             
             <StackLayout Orientation="Vertical">
                 <StackLayout>
-                    <Label Text="示例 1 : 普通按钮" VerticalOptions="Start" HorizontalOptions="Center" Margin="0,20,0,0" />
+                    <Label Text="示例 1 : 一般按钮" VerticalOptions="Start" HorizontalOptions="Center" Margin="0,20,0,0" />
 
                     <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center" Padding="0" WidthRequest="200" HeightRequest="50">
-                        <Button Text="普通按钮" WidthRequest="200" HeightRequest="50"/>
+                        <Button Text="一般按钮" WidthRequest="200" HeightRequest="50"/>
                     </StackLayout>
                 </StackLayout>
 
