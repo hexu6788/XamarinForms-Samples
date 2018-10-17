@@ -9,7 +9,7 @@
             <StackLayout Orientation="Vertical">
                 <StackLayout>
 
-                    <local:SampleNavigation Text="示例 1：设置高度500，宽度200的堆栈布局" XamlCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml.cs" CSharpCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml.cs"/>
+                    <local:SampleNavigation Text="示例 1：设置高度500，宽度200的堆栈布局" XamlCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml" CSharpCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml.cs"/>
 
                     <StackLayout WidthRequest="200" HeightRequest="50" BackgroundColor="Yellow"></StackLayout>
                 </StackLayout>

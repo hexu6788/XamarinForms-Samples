@@ -19,9 +19,15 @@ namespace Samples
 
             var browser = new WebView
             {
+                HeightRequest = 2208,
+                WidthRequest = 1242,
                 Source = url
             };
+
+            
             Content = browser;
+
+            BackgroundColor = Color.Yellow;
         }
 
 	}
