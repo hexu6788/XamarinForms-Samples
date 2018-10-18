@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Samples.Directory.Base.Layout.ScrollView.ScrollViewSamples5"
+             xmlns:local="clr-namespace:Samples.Controls;assembly=Samples">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+
+            <StackLayout>
+
+                <local:SampleNavigation Text="示例：将滚动视图滚动到具体的位置" XamlCodeUrl="Directory/Base/Layout/ScrollView/ScrollViewSamples5.xaml" CSharpCodeUrl="Directory/Base/Layout/ScrollView/ScrollViewSamples5.xaml.cs"/>
+
+                <Button Text="点击滚动到150的位置" Clicked="Button_150_Clicked"/>
+                <Button Text="点击滚动到开始位置" Clicked="Button_Start_Clicked"/>
+                <Button Text="点击滚动到结束位置" Clicked="Button_End_Clicked"/>
+                <ScrollView x:Name="scrollView" WidthRequest="300" HeightRequest="300" BackgroundColor="Red" Orientation="Vertical" VerticalScrollBarVisibility="Never">
+                    <StackLayout>
+                        <Label Text="滚动视图1"/>
+                        <Label Text="滚动视图2"/>
+                        <Label Text="滚动视图3"/>
+                        <Label Text="滚动视图4"/>
+                        <Label Text="滚动视图5"/>
+                        <Label Text="滚动视图6"/>
+                        <Label Text="滚动视图7"/>
+                        <Label Text="滚动视图8"/>
+                        <Label Text="滚动视图9"/>
+                        <Label Text="滚动视图0"/>
+                        <Label Text="滚动视图10"/>
+                        <Label Text="滚动视图11"/>
+                        <Label Text="滚动视图12"/>
+                        <Label Text="滚动视图13"/>
+                        <Label Text="滚动视图14"/>
+                        <Label Text="滚动视图15"/>
+                        <Label Text="滚动视图16"/>
+                        <Label Text="滚动视图17"/>
+                        <Label Text="滚动视图18"/>
+                        <Label Text="滚动视图19"/>
+                        <Label Text="滚动视图20"/>
+                        <Label Text="滚动视图21"/>
+                        <Label Text="滚动视图22"/>
+                        <Label Text="滚动视图23"/>
+                        <Label Text="滚动视图24"/>
+                        <Label Text="滚动视图25"/>
+                        <Label Text="滚动视图26"/>
+                        <Label Text="滚动视图27"/>
+                        <Label Text="滚动视图28"/>
+                        <Label Text="滚动视图29"/>
+                        <Label Text="滚动视图30"/>
+                        <Label Text="滚动视图31"/>
+                        <Label Text="滚动视图32"/>
+                        <Label Text="滚动视图33"/>
+                        <Label Text="滚动视图34"/>
+                        <Label Text="滚动视图35"/>
+                        <Label Text="滚动视图36"/>
+                        <Label Text="滚动视图37"/>
+                        <Label Text="滚动视图38"/>
+                        <Label Text="滚动视图39"/>
+                        <Label Text="滚动视图40"/>
+                        <Label Text="滚动视图41"/>
+                        <Label Text="滚动视图42"/>
+                        <Label Text="滚动视图43"/>
+                        <Label Text="滚动视图44"/>
+                        <Label Text="滚动视图45"/>
+                        <Label Text="滚动视图46"/>
+                        <Label Text="滚动视图47"/>
+                        <Label Text="滚动视图48"/>
+                        <Label Text="滚动视图49"/>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

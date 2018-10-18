@@ -10,6 +10,26 @@
                 <Button Text="StackLayout(堆栈布局)" Clicked="StackLayoutSamples_Clicked" />
             </StackLayout>
 
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="ScrollView_高度500(滚动视图)" Clicked="ScrollViewSamples_Clicked" />
+            </StackLayout>
+
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="ScrollView_高度2500(滚动视图)" Clicked="ScrollViewSamples2_Clicked" />
+            </StackLayout>
+
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="ScrollView_方向(滚动视图)" Clicked="ScrollViewSamples3_Clicked" />
+            </StackLayout>
+
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="ScrollView_滚动条可见(滚动视图)" Clicked="ScrollViewSamples4_Clicked" />
+            </StackLayout>
+
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="ScrollView_滚动到位置(滚动视图)" Clicked="ScrollViewSamples5_Clicked" />
+            </StackLayout>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

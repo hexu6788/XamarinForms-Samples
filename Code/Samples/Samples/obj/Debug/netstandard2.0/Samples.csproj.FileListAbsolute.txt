@@ -27,3 +27,8 @@ G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Samples.cs
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\CodeView.xaml.g.cs
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\CodeViewNavigation.xaml.g.cs
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Base\BoxView\BoxViewSamples.xaml.g.cs
+G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Base\Layout\ScrollView\ScrollViewSamples.xaml.g.cs
+G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Base\Layout\ScrollView\ScrollViewSamples2.xaml.g.cs
+G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Base\Layout\ScrollView\ScrollViewSamples3.xaml.g.cs
+G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Base\Layout\ScrollView\ScrollViewSamples4.xaml.g.cs
+G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Base\Layout\ScrollView\ScrollViewSamples5.xaml.g.cs
