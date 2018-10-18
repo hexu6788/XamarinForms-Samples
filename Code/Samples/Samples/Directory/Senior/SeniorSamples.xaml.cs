@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Samples.Directory.Senior.CarouselView;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,5 +17,11 @@ namespace Samples
 		{
 			InitializeComponent ();
 		}
-	}
+
+
+        private void CarouselViewSamples_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new CarouselViewSamples());
+        }
+    }
 }

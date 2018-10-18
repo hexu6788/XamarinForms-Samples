@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Samples.Directory.Senior.CarouselView.CarouselViewSamples"
+             xmlns:carouselView="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+             xmlns:local="clr-namespace:Samples.Controls;assembly=Samples">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <StackLayout>
+
+                <local:SampleNavigation Text="示例：轮播图1" XamlCodeUrl="Directory/Senior/CarouselView/CarouselViewSamples.xaml" CSharpCodeUrl="Directory/Senior/CarouselView/CarouselViewSamples.xaml.cs"/>
+
+                <StackLayout HeightRequest="200" WidthRequest="200" BackgroundColor="Red" Orientation="Vertical">
+
+                    <carouselView:CarouselViewControl Orientation="Horizontal" InterPageSpacing="10"
+                                  ItemsSource="{Binding Modelos}" ShowIndicators="True" AnimateTransition="True"
+                                  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
+                                                      CurrentPageIndicatorTintColor="White">
+                        <carouselView:CarouselViewControl.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout BackgroundColor="{Binding CorDeFundo}" VerticalOptions="Center" HorizontalOptions="Center">
+                                    <Label Text="{Binding Texto}" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" />
+                                    <Button Text="Teste Botao" IsVisible="{Binding TemBotao}"></Button>
+                                </StackLayout>
+                            </DataTemplate>
+                        </carouselView:CarouselViewControl.ItemTemplate>
+                    </carouselView:CarouselViewControl>
+
+                </StackLayout>
+
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

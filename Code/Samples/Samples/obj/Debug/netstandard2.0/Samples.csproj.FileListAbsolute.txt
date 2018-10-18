@@ -17,7 +17,6 @@ G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Samples.dl
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Samples.pdb
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\App.xaml.g.cs
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\XamlC.stamp
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Base\BaseSamples.xaml.g.cs
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Base\Layout\LayoutSamples.xaml.g.cs
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Base\Layout\StackLayout\StackLayoutSamples.xaml.g.cs
@@ -32,3 +31,5 @@ G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Base\Layout\ScrollView\ScrollViewSamples3.xaml.g.cs
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Base\Layout\ScrollView\ScrollViewSamples4.xaml.g.cs
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Base\Layout\ScrollView\ScrollViewSamples5.xaml.g.cs
+G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Senior\CarouselView\CarouselViewSamples.xaml.g.cs
+G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\XamlC.stamp

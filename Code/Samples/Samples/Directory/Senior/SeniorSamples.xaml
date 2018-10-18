@@ -4,6 +4,12 @@
              x:Class="Samples.SeniorSamples">
     <ContentPage.Content>
         <StackLayout>
+            <Label Text="高级示例" VerticalOptions="Start" HorizontalOptions="Center" Margin="0,20,0,0" />
+
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="CarouselView(轮播视图)" Clicked="CarouselViewSamples_Clicked" />
+            </StackLayout>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
