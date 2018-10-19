@@ -7,6 +7,8 @@
         * [AbsoluteLayout(绝对布局)](https://github.com/hexu6788/XamarinForms-Samples/wiki/AbsoluteLayout-Android "AbsoluteLayout(绝对布局")
         * [ScrollView(滚动视图)](https://github.com/hexu6788/XamarinForms-Samples/wiki/ScrollView-Android "ScrollView(滚动视图)")
    * [Button(按钮)](https://github.com/hexu6788/XamarinForms-Samples/wiki/Button-Android "Button(按钮)")
+   * [BoxView(盒子视图)](https://github.com/hexu6788/XamarinForms-Samples/wiki/BoxView-Android "BoxView(盒子视图)")
+   * [Label(文本)](https://github.com/hexu6788/XamarinForms-Samples/wiki/Image-Android "Label(文本)")
    * [Image(图片)](https://github.com/hexu6788/XamarinForms-Samples/wiki/Image-Android "Image(图片)")
 * 高级
    * [轮播图1](https://github.com/hexu6788/XamarinForms-Samples/wiki/%E8%BD%AE%E6%92%AD%E5%9B%BE1-Android "轮播图1")
