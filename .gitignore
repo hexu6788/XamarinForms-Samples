@@ -2,4 +2,7 @@ bin
 obj
 iPhone/Debug
 iPhoneSimulator/Debug
+Debug
+Release
 .vs
+.pdb
