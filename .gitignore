@@ -2,4 +2,5 @@ bin
 obj
 iPhone/Debug
 iPhoneSimulator/Debug
+Debug
 .vs
