@@ -4,6 +4,7 @@
 * Base(基础)
    * Layout(布局)
         * [StackLayout(堆栈布局)](https://github.com/hexu6788/XamarinForms-Samples/wiki/StackLayout-Android "StackLayout(堆栈布局)")
+        * [AbsoluteLayout(绝对布局)](https://github.com/hexu6788/XamarinForms-Samples/wiki/AbsoluteLayout-Android "AbsoluteLayout(绝对布局")
         * [ScrollView(滚动视图)](https://github.com/hexu6788/XamarinForms-Samples/wiki/ScrollView-Android "ScrollView(滚动视图)")
    * [Image(图片)](https://github.com/hexu6788/XamarinForms-Samples/wiki/Image-Android "Image(图片)")
 * 高级
