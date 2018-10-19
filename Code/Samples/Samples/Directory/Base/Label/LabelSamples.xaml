@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Samples.Directory.Base.BoxView.BoxViewSamples"
+             x:Class="Samples.Directory.Base.Label.LabelSamples"
              xmlns:local="clr-namespace:Samples.Controls;assembly=Samples">
     <ContentPage.Content>
         <ScrollView Orientation="Vertical" VerticalScrollBarVisibility="Never">
@@ -9,10 +9,10 @@
             <StackLayout Orientation="Vertical">
 
                 <StackLayout>
-                    <local:SampleNavigation Text="示例：设置一个高度为500，宽度为200的BoxView" XamlCodeUrl="Directory/Base/BoxView/BoxViewSamples.xaml" CSharpCodeUrl="Directory/Base/BoxView/BoxViewSamples.xaml.cs"/>
+                    <local:SampleNavigation Text="示例：设置一个高度为40，宽度为120的文本" XamlCodeUrl="Directory/Base/BoxView/BoxViewSamples.xaml" CSharpCodeUrl="Directory/Base/BoxView/BoxViewSamples.xaml.cs"/>
 
                     <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
-                        <BoxView HeightRequest="500" WidthRequest="200" BackgroundColor="Red"/>
+                        <Label Text="Hello 何旭 !" HeightRequest="40" WidthRequest="120" BackgroundColor="Red"/>
                     </StackLayout>
                 </StackLayout>
 

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Samples.Directory.Base.Image.ImageSamples"
+             xmlns:local="clr-namespace:Samples.Controls;assembly=Samples">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical" VerticalScrollBarVisibility="Never">
+
+            <StackLayout Orientation="Vertical">
+
+                <StackLayout>
+                    <local:SampleNavigation Text="示例：设置一个高度为46，宽度为216的图片" XamlCodeUrl="Directory/Base/Image/ImageSamples.xaml" CSharpCodeUrl="Directory/Base/Image/ImageSamples.xaml.cs"/>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                        <Image HeightRequest="46" WidthRequest="216" 
+                               Source="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" />
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout>
+                    <local:SampleNavigation Text="示例：设置填充方式AspectFit,AspectFill,Fill" XamlCodeUrl="Directory/Base/Image/ImageSamples.xaml" CSharpCodeUrl="Directory/Base/Image/ImageSamples.xaml.cs"/>
+
+                    <StackLayout HorizontalOptions="Center">
+                        <Label Text="AspectFit"/>
+                        <Image HeightRequest="200" WidthRequest="200" BackgroundColor="Red" Aspect="AspectFit"
+                               Source="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" />
+
+                        <Label Text="AspectFill"/>
+                        <Image HeightRequest="200" WidthRequest="200" BackgroundColor="Red" Aspect="AspectFill"
+                               Source="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" />
+
+                        <Label Text="Fill"/>
+                        <Image HeightRequest="200" WidthRequest="200" BackgroundColor="Red" Aspect="Fill"
+                               Source="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" />
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout>
+                    <local:SampleNavigation Text="示例：设置一个圆弧半径为50的图片" XamlCodeUrl="Directory/Base/Image/ImageSamples.xaml" CSharpCodeUrl="Directory/Base/Image/ImageSamples.xaml.cs"/>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+
+                        <Frame WidthRequest="50" HeightRequest="50" CornerRadius="50" BackgroundColor="Yellow" Padding="0">
+                            <Image Source="https://avatars0.githubusercontent.com/u/4196818" BackgroundColor="Blue" />
+                        </Frame>
+                        
+                    </StackLayout>
+                </StackLayout>
+
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

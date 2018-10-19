@@ -1,4 +1,5 @@
 ﻿
+using Samples.Directory.Base.Layout.AbsoluteLayout;
 using Samples.Directory.Base.Layout.ScrollView;
 using Samples.Directory.Base.Layout.StackLayout;
 using System;
@@ -49,5 +50,12 @@ namespace Samples.Base.Layout
         {
             Navigation.PushAsync(new ScrollViewSamples5());
         }
+
+        private void AbsoluteLayoutSamples_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AbsoluteLayoutSamples());
+        }
+
+        
     }
 }

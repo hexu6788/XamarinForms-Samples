@@ -33,3 +33,7 @@ G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Base\Layout\ScrollView\ScrollViewSamples5.xaml.g.cs
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Senior\CarouselView\CarouselViewSamples.xaml.g.cs
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\XamlC.stamp
+G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Base\Button\ButtonSamples.xaml.g.cs
+G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Base\Layout\AbsoluteLayout\AbsoluteLayoutSamples.xaml.g.cs
+G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Base\Image\ImageSamples.xaml.g.cs
+G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Base\Label\LabelSamples.xaml.g.cs

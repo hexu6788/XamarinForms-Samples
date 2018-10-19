@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Samples.Directory.Base.Button.ButtonSamples"
+             xmlns:local="clr-namespace:Samples.Controls;assembly=Samples">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical" VerticalScrollBarVisibility="Never">
+
+            <StackLayout Orientation="Vertical">
+
+
+
+                <StackLayout>
+                    <local:SampleNavigation Text="示例：设置一个高度为100，宽度为50的按钮" XamlCodeUrl="Directory/Base/Button/ButtonSamples.xaml" CSharpCodeUrl="Directory/Base/Button/ButtonSamples.xaml.cs"/>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                        <Button Text="普通按钮" BackgroundColor="Yellow" WidthRequest="100" HeightRequest="50"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout>
+                    <local:SampleNavigation Text="示例：设置按钮背景颜色为Red" XamlCodeUrl="Directory/Base/Button/ButtonSamples.xaml" CSharpCodeUrl="Directory/Base/Button/ButtonSamples.xaml.cs"/>
+
+                    <StackLayout>
+                        <Button Text="普通按钮" BackgroundColor="Red"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout>
+                    <local:SampleNavigation Text="示例：设置按钮背景颜色为#FFB6C1" XamlCodeUrl="Directory/Base/Button/ButtonSamples.xaml" CSharpCodeUrl="Directory/Base/Button/ButtonSamples.xaml.cs"/>
+
+                    <StackLayout>
+                        <Button Text="普通按钮" BackgroundColor="#FFB6C1"/>
+                    </StackLayout>
+                </StackLayout>
+
+
+                <StackLayout>
+                    <local:SampleNavigation Text="示例：设置按钮背景颜色为RGB(125, 0, 0)" XamlCodeUrl="Directory/Base/Button/ButtonSamples.xaml" CSharpCodeUrl="Directory/Base/Button/ButtonSamples.xaml.cs"/>
+
+                    <StackLayout>
+                        <Button x:Name="button_1" Text="普通按钮"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout>
+                    <local:SampleNavigation Text="示例：设置按钮背景颜色为RGBA(125, 0, 0, 0.5)" XamlCodeUrl="Directory/Base/Button/ButtonSamples.xaml" CSharpCodeUrl="Directory/Base/Button/ButtonSamples.xaml.cs"/>
+
+                    <StackLayout>
+                        <Button x:Name="button_2" Text="普通按钮"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout>
+                    <local:SampleNavigation Text="示例：设置按钮字体颜色为蓝色" XamlCodeUrl="Directory/Base/Button/ButtonSamples.xaml" CSharpCodeUrl="Directory/Base/Button/ButtonSamples.xaml.cs"/>
+
+                    <StackLayout>
+                        <Button Text="普通按钮" TextColor="Blue"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout>
+                    <local:SampleNavigation Text="示例：设置按钮字体字体大小为18" XamlCodeUrl="Directory/Base/Button/ButtonSamples.xaml" CSharpCodeUrl="Directory/Base/Button/ButtonSamples.xaml.cs"/>
+
+                    <StackLayout>
+                        <Button Text="普通按钮" FontSize="18"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout>
+                    <local:SampleNavigation Text="示例：设置按钮字体内容为 hi , xamarin !" XamlCodeUrl="Directory/Base/Button/ButtonSamples.xaml" CSharpCodeUrl="Directory/Base/Button/ButtonSamples.xaml.cs"/>
+
+                    <StackLayout>
+                        <Button Text="hi , xamarin !"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout>
+                    <local:SampleNavigation Text="示例：设置按钮点击事件" XamlCodeUrl="Directory/Base/Button/ButtonSamples.xaml" CSharpCodeUrl="Directory/Base/Button/ButtonSamples.xaml.cs"/>
+
+                    <StackLayout>
+                        <Button Text="按钮事件" Clicked="Button_Clicked"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout>
+                    <local:SampleNavigation Text="示例：设置按钮为禁用或启用状态" XamlCodeUrl="Directory/Base/Button/ButtonSamples.xaml" CSharpCodeUrl="Directory/Base/Button/ButtonSamples.xaml.cs"/>
+
+                    <StackLayout>
+                        <Button Text="当前状态为启用" IsEnabled="True"/>
+                        <Button Text="当前状态为禁用" IsEnabled="False"/>
+                    </StackLayout>
+                </StackLayout>
+
+                
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

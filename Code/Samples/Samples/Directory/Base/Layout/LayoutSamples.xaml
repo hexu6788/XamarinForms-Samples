@@ -29,7 +29,11 @@
             <StackLayout Margin="0,20,0,0" >
                 <Button Text="ScrollView_滚动到位置(滚动视图)" Clicked="ScrollViewSamples5_Clicked" />
             </StackLayout>
-            
+
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="AbsoluteLayout(绝对布局)" Clicked="AbsoluteLayoutSamples_Clicked" />
+            </StackLayout>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
