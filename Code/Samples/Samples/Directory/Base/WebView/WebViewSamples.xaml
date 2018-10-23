@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Samples.Directory.Base.WebView.WebViewSamples"
+             xmlns:local="clr-namespace:Samples.Controls;assembly=Samples">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout>
+                <local:SampleNavigation Text="示例：使用WebView打开 cnblogs.com/hexu6788" XamlCodeUrl="Directory/Base/WebView/WebViewSamples.xaml" CSharpCodeUrl="Directory/Base/WebView/WebViewSamples.xaml.cs"/>
+
+                <StackLayout x:Name="webview" HeightRequest="2208" WidthRequest="1242">
+                    
+                </StackLayout>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

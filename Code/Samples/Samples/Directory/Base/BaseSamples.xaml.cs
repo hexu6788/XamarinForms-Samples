@@ -1,8 +1,11 @@
 ﻿using Samples.Base.Layout;
 using Samples.Directory.Base.BoxView;
 using Samples.Directory.Base.Button;
+using Samples.Directory.Base.Entry;
 using Samples.Directory.Base.Image;
 using Samples.Directory.Base.Label;
+using Samples.Directory.Base.ListView;
+using Samples.Directory.Base.WebView;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,6 +40,11 @@ namespace Samples
             Navigation.PushAsync(new BoxViewSamples());
         }
 
+        private void EntrySamples_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new EntrySamples());
+        }
+
         private void LabelSamples_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new LabelSamples());
@@ -46,6 +54,18 @@ namespace Samples
         {
             Navigation.PushAsync(new ImageSamples());
         }
+
+        private void ListViewSamples_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ListViewSamples());
+        }
+        
+        private void WebViewSamples_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new WebViewSamples());
+        }
+
+
         
     }
 }

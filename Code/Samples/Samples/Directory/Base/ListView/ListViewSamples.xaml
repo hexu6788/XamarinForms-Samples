@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Samples.Directory.Base.ListView.ListViewSamples"
+             xmlns:local="clr-namespace:Samples.Controls;assembly=Samples">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical" VerticalScrollBarVisibility="Never">
+
+            <StackLayout Orientation="Vertical">
+
+
+
+                <StackLayout>
+                    <local:SampleNavigation Text="示例：普通ListView" XamlCodeUrl="Directory/Base/ListView/ListViewSamples.xaml" CSharpCodeUrl="Directory/Base/ListView/ListViewSamples.xaml.cs"/>
+
+                    <StackLayout>
+                        
+                        <ListView x:Name="listView" HeightRequest="400" />
+                        
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout>
+                    <local:SampleNavigation Text="示例：自定义项模版ListView" XamlCodeUrl="Directory/Base/ListView/ListViewSamples.xaml" CSharpCodeUrl="Directory/Base/ListView/ListViewSamples.xaml.cs"/>
+
+                    <StackLayout>
+                        
+                        <ListView x:Name="listView_2">
+                            <ListView.ItemTemplate HeightRequest="400" >
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Orientation="Horizontal">
+                                            <StackLayout WidthRequest="15" HeightRequest="50" HorizontalOptions="Start"></StackLayout>
+                                            <StackLayout WidthRequest="150" HeightRequest="50" HorizontalOptions="StartAndExpand">
+                                                <StackLayout Orientation="Horizontal">
+                                                    <Label Text="{Binding Name}"/>
+                                                    <Label Text="|"/>
+                                                    <Label Text="{Binding TelPhone}"/>
+                                                </StackLayout>
+                                                <StackLayout Orientation="Horizontal">
+                                                    <Label Text="8:56 呼入27秒"/>
+                                                </StackLayout>
+                                            </StackLayout>
+                                            <StackLayout WidthRequest="5" HeightRequest="50" HorizontalOptions="End"></StackLayout>
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+
+                    </StackLayout>
+                </StackLayout>
+
+               
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Samples.Directory.Base.Entry.EntrySamples"
+             xmlns:local="clr-namespace:Samples.Controls;assembly=Samples">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical" VerticalScrollBarVisibility="Never">
+
+            <StackLayout Orientation="Vertical">
+
+                <StackLayout>
+                    <local:SampleNavigation Text="示例：一个高度为50，宽度为250的输入框" XamlCodeUrl="Directory/Base/Entry/EntrySamples.xaml" CSharpCodeUrl="Directory/Base/Entry/EntrySamples.xaml.cs"/>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                        <Entry HeightRequest="50" WidthRequest="250" />
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout>
+                    <local:SampleNavigation Text="示例：设置输入框背景颜色为Red" XamlCodeUrl="Directory/Base/Entry/EntrySamples.xaml" CSharpCodeUrl="Directory/Base/Entry/EntrySamples.xaml.cs"/>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                        <Entry HeightRequest="50" WidthRequest="250" BackgroundColor="Red" />
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout>
+                    <local:SampleNavigation Text="示例：设置输入框背景颜色为#FFB6C1" XamlCodeUrl="Directory/Base/Entry/EntrySamples.xaml" CSharpCodeUrl="Directory/Base/Entry/EntrySamples.xaml.cs"/>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                        <Entry HeightRequest="50" WidthRequest="250" BackgroundColor="#FFB6C1" />
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout>
+                    <local:SampleNavigation Text="示例：设置输入框字体颜色为蓝色" XamlCodeUrl="Directory/Base/Entry/EntrySamples.xaml" CSharpCodeUrl="Directory/Base/Entry/EntrySamples.xaml.cs"/>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                        <Entry WidthRequest="250" TextColor="Blue" />
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout>
+                    <local:SampleNavigation Text="示例：设置输入框字体字体大小为18" XamlCodeUrl="Directory/Base/Entry/EntrySamples.xaml" CSharpCodeUrl="Directory/Base/Entry/EntrySamples.xaml.cs"/>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                        <Entry WidthRequest="250" FontSize="18" />
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout>
+                    <local:SampleNavigation Text="示例：设置输入框内容为 hi , xamarin !" XamlCodeUrl="Directory/Base/Entry/EntrySamples.xaml" CSharpCodeUrl="Directory/Base/Entry/EntrySamples.xaml.cs"/>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                        <Entry WidthRequest="250" FontSize="18" Text="hi , xamarin !" />
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout>
+                    <local:SampleNavigation Text="示例：设置输入框显示格式为 ************" XamlCodeUrl="Directory/Base/Entry/EntrySamples.xaml" CSharpCodeUrl="Directory/Base/Entry/EntrySamples.xaml.cs"/>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                        <Entry WidthRequest="250" FontSize="18" IsPassword="True"/>
+                    </StackLayout>
+                </StackLayout>
+
+                
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
