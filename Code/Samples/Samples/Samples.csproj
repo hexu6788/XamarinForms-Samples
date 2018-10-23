@@ -89,4 +89,79 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
+
+  <ItemGroup>
+    <None Update="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="CodeView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="CodeViewNavigation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Directory\Base\BaseSamples.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Directory\Base\BoxView\BoxViewSamples.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Directory\Base\Button\ButtonSamples.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Directory\Base\Entry\EntrySamples.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Directory\Base\Image\ImageSamples.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Directory\Base\Label\LabelSamples.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Directory\Base\Layout\AbsoluteLayout\AbsoluteLayoutSamples.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Directory\Base\Layout\LayoutSamples.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Directory\Base\Layout\ScrollView\ScrollViewSamples.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Directory\Base\Layout\ScrollView\ScrollViewSamples2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Directory\Base\Layout\ScrollView\ScrollViewSamples3.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Directory\Base\Layout\ScrollView\ScrollViewSamples4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Directory\Base\Layout\ScrollView\ScrollViewSamples5.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Directory\Base\Layout\StackLayout\StackLayoutSamples.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Directory\Base\ListView\ListViewSamples.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Directory\Base\WebView\WebViewSamples.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Directory\DirectorySamples.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Directory\Senior\CarouselView\CarouselViewSamples.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Directory\Senior\LianJiaLoginStatic\LianJiaLoginStaticSamples.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Directory\Senior\SeniorSamples.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+  </ItemGroup>
 </Project>
