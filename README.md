@@ -12,6 +12,7 @@
    * [Label(文本)](https://github.com/hexu6788/XamarinForms-Samples/wiki/Label-Android "Label(文本)")
    * [Image(图片)](https://github.com/hexu6788/XamarinForms-Samples/wiki/Image-Android "Image(图片)")
    * [ListView(列表视图)](https://github.com/hexu6788/XamarinForms-Samples/wiki/ListView-%E7%A4%BA%E4%BE%8B "ListView(列表视图)")
+   * [WebView(Web视图)](https://github.com/hexu6788/XamarinForms-Samples/wiki/WebView-%E7%A4%BA%E4%BE%8B "WebView(Web视图)")
    
 * 高级
    * [轮播图1](https://github.com/hexu6788/XamarinForms-Samples/wiki/%E8%BD%AE%E6%92%AD%E5%9B%BE1-Android "轮播图1")
