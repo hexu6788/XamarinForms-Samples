@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:Samples.Controls"
              x:Class="Samples.Directory.Senior.LianJiaLoginStatic.LianJiaLoginStaticSamples">
     <ContentPage.Content>
         <StackLayout>
@@ -16,14 +17,18 @@
 
                 <Label Text="未注册过的手机号将自动创建连加帐号，经纪人不会看到您的手机号" TextColor="#878b8d" FontSize="16" HorizontalTextAlignment="Start" Margin="40,0,40,10"/>
 
-                <StackLayout Orientation="Horizontal" Margin="40,20,40,20" >
-                    <Entry Placeholder="请输入手机号" PlaceholderColor="#c3c5c6" TextColor="#c3c5c6" VerticalOptions="Center" HorizontalOptions="FillAndExpand" FontSize="17"/>
-                    <Label Text="发送验证码" FontAttributes="Bold" VerticalOptions="Center" TextColor="#898d90" HorizontalOptions="End" FontSize="17"/>
+                
+                <StackLayout Orientation="Horizontal" Margin="40,20,40,0" >
+                    <controls:ExtendEntry Placeholder="请输入手机号" PlaceholderColor="#c3c5c6" TextColor="#c3c5c6" VerticalOptions="Center" HorizontalOptions="FillAndExpand" FontSize="17"/>
+                    <Label Text="发送验证码" FontAttributes="Bold" VerticalOptions="Center" TextColor="#898d90" HorizontalOptions="End" FontSize="16"/>
                 </StackLayout>
+                <BoxView Margin="40,0,40,20" HeightRequest="1" BackgroundColor="#c3c5c6"/>
 
                 <StackLayout Orientation="Horizontal" Margin="40,0,40,0">
-                    <Entry Placeholder="请输入短信验证码" PlaceholderColor="#c3c5c6" TextColor="#c3c5c6" VerticalOptions="Center" HorizontalOptions="FillAndExpand" FontSize="17"/>
+                    <controls:ExtendEntry Placeholder="请输入短信验证码" PlaceholderColor="#c3c5c6" TextColor="#c3c5c6" VerticalOptions="Center" HorizontalOptions="FillAndExpand" FontSize="17"/>
                 </StackLayout>
+                <BoxView Margin="40,0,40,20" HeightRequest="1" BackgroundColor="#c3c5c6"/>
+                
 
                 <Button Text="登录" Margin="40,20,40,0" Padding="0,18,0,18" FontSize="17" TextColor="White" BackgroundColor="#66cea3" HorizontalOptions="Fill" VerticalOptions="Fill"/>
 

@@ -11,7 +11,7 @@
             </StackLayout>
 
             <StackLayout Margin="0,20,0,0" >
-                <Button Text="LianJiaLoginStatic(链家App登录页面静态布局)" Clicked="LianJiaLoginStaticSamples_Clicked" />
+                <Button Text="LianJiaLoginStatic(仿lianjia登录页面静态布局)" Clicked="LianJiaLoginStaticSamples_Clicked" />
             </StackLayout>
 
         </StackLayout>
