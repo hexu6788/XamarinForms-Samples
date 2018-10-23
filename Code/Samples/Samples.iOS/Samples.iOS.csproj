@@ -155,8 +155,11 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\Samples\Samples.csproj">
-      <Project>{C177DD64-23D5-48F5-98FB-AA41B08EE0AF}</Project>
+      <Project>{9B8C53F3-842C-4E6D-AE5D-2969C6527A0D}</Project>
       <Name>Samples</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\close.png" />
   </ItemGroup>
 </Project>
