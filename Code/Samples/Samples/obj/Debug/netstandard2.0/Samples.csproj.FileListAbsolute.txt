@@ -22,7 +22,6 @@ G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Base\Layout\StackLayout\StackLayoutSamples.xaml.g.cs
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\DirectorySamples.xaml.g.cs
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Senior\SeniorSamples.xaml.g.cs
-G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Samples.csprojAssemblyReference.cache
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\CodeView.xaml.g.cs
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\CodeViewNavigation.xaml.g.cs
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Base\BoxView\BoxViewSamples.xaml.g.cs
@@ -40,3 +39,5 @@ G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Base\WebView\WebViewSamples.xaml.g.cs
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Base\ListView\ListViewSamples.xaml.g.cs
 G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Base\Entry\EntrySamples.xaml.g.cs
+G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Directory\Senior\LianJiaLoginStatic\LianJiaLoginStaticSamples.xaml.g.cs
+G:\XamarinForms-Samples\Code\Samples\Samples\obj\Debug\netstandard2.0\Samples.csprojAssemblyReference.cache
