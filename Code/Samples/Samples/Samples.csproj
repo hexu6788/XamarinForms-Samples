@@ -85,6 +85,9 @@
     <EmbeddedResource Update="Directory\Senior\LianJiaLoginStatic\LianJiaLoginStaticSamples.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Directory\Senior\LianJiaMy\LianJiaMySamples.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Directory\Senior\SeniorSamples.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

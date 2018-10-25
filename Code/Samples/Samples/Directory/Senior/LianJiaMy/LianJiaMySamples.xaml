@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Samples.Controls"
+             x:Class="Samples.Directory.Senior.LianJiaMy.LianJiaMySamples">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical" VerticalScrollBarVisibility="Never" BackgroundColor="#ffffff">
+
+            <StackLayout>
+                <Image Source="gear.png" Margin="0,20,20,0" HorizontalOptions="End" HeightRequest="20" WidthRequest="20"/>
+                <StackLayout Orientation="Horizontal" BackgroundColor="#ffffff">
+                    <Image Source="head.png" Margin="20,0,0,0" HeightRequest="72" WidthRequest="72"/>
+                    <StackLayout Margin="10,0,0,0" HeightRequest="72">
+                        <Label Text="点击登录/注册" FontSize="20" HeightRequest="36" VerticalTextAlignment="Center" VerticalOptions="Center" HorizontalOptions="StartAndExpand" TextColor="#38413e"/>
+                        <Label Text="注册手机号不会透露给经纪人" FontSize="14" HeightRequest="36" VerticalTextAlignment="Center" VerticalOptions="Center" HorizontalOptions="StartAndExpand" TextColor="#c0c0c0"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout HeightRequest="1" Margin="0,10,0,0" BackgroundColor="#ececec"/>
+
+                <StackLayout Padding="0,5,0,5" Orientation="Horizontal">
+                    <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand" Padding="30,0,30,0">
+                        <Label Text="0" HeightRequest="32" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center" FontSize="16" TextColor="#2e3231"/>
+                        <Label Text="看房记录" HeightRequest="32" HorizontalTextAlignment="Center" FontSize="15" TextColor="#2e3231"/>
+                    </StackLayout>
+                    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="FillAndExpand" Padding="30,0,30,0">
+                        <Label Text="0" HeightRequest="32" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center" FontSize="16" TextColor="#2e3231"/>
+                        <Label Text="我的委托" HeightRequest="32" HorizontalTextAlignment="Center" FontSize="15" TextColor="#2e3231"/>
+                    </StackLayout>
+                    <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" Padding="30,0,30,0">
+                        <Label Text="0" HeightRequest="32" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center" FontSize="16" TextColor="#2e3231"/>
+                        <Label Text="搜索订阅" HeightRequest="32" HorizontalTextAlignment="Center" FontSize="15" TextColor="#2e3231"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout HeightRequest="10" BackgroundColor="#f7f7f7"/>
+
+                <StackLayout Padding="25,0,25,0">
+                    <Label Text="我关注的" FontSize="17" HeightRequest="36" VerticalTextAlignment="Center" VerticalOptions="Center" HorizontalOptions="StartAndExpand" TextColor="#38413e"/>
+                    <StackLayout HeightRequest="1" Margin="0,0,0,0" BackgroundColor="#ececec"/>
+                    <StackLayout Padding="0,5,0,5" Orientation="Horizontal" BackgroundColor="#ffffff">
+                        <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand" Padding="10,0,10,0">
+                            <Image Source="my_4.jpg" HeightRequest="28" WidthRequest="28"/>
+                            <Label Text="二手房 (0)" HeightRequest="32" HorizontalTextAlignment="Center" FontSize="15" TextColor="#2e3231"/>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="FillAndExpand" Padding="10,0,10,0">
+                            <Image Source="my_1.jpg" HeightRequest="28" WidthRequest="28"/>
+                            <Label Text="新房 (0)" HeightRequest="32" HorizontalTextAlignment="Center" FontSize="15" TextColor="#2e3231"/>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" Padding="10,0,10,0">
+                            <Image Source="my_2.jpg" HeightRequest="28" WidthRequest="28"/>
+                            <Label Text="租房 (0)" HeightRequest="32" HorizontalTextAlignment="Center" FontSize="15" TextColor="#2e3231"/>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand" Padding="10,0,10,0">
+                            <Image Source="my_3.jpg" HeightRequest="28" WidthRequest="28"/>
+                            <Label Text="小区 (0)" HeightRequest="32" HorizontalTextAlignment="Center" FontSize="15" TextColor="#2e3231"/>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout HeightRequest="10" BackgroundColor="#f7f7f7"/>
+
+                <StackLayout>
+                    <Label Text="添加房屋资产" Margin="0,30,0,0" HorizontalOptions="Center" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="20" TextColor="#38413e"/>
+                    <Label Text="配置专属维护人，随时关注房屋资产变化" Margin="0,2,0,2" FontSize="15" HorizontalOptions="Center" TextColor="#c0c0c0"/>
+                    <Button Text="立即添加" Margin="0,2,0,22" FontAttributes="Bold" FontSize="16" HorizontalOptions="Center" WidthRequest="100" TextColor="#38413e" BackgroundColor="Transparent" BorderWidth="1" BorderRadius="4" BorderColor="#38413e"/>
+                </StackLayout>
+
+                <StackLayout HeightRequest="10" BackgroundColor="#f7f7f7"/>
+
+                <StackLayout Padding="25,0,0,0">
+                    <StackLayout HeightRequest="36" Orientation="Horizontal">
+                        <Label Text="我的经纪人" FontSize="17" HeightRequest="36" TextColor="#2e3231" HorizontalOptions="Start" HorizontalTextAlignment="Start" VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                        <Image Margin="0,0,14,0" Source="r.jpg" HeightRequest="17" HorizontalOptions="EndAndExpand" VerticalOptions="Center"/>
+                    </StackLayout>
+                    
+                    <StackLayout HeightRequest="1" Margin="0,0,0,0" BackgroundColor="#ececec"/>
+
+                    <StackLayout HeightRequest="36" Orientation="Horizontal">
+                        <Label Text="我的问答" FontSize="17" HeightRequest="36" TextColor="#2e3231" HorizontalOptions="Start" HorizontalTextAlignment="Start" VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                        <Image Margin="0,0,14,0" Source="r.jpg" HeightRequest="17" HorizontalOptions="EndAndExpand" VerticalOptions="Center"/>
+                    </StackLayout>
+
+                    <StackLayout HeightRequest="1" Margin="0,0,0,0" BackgroundColor="#ececec"/>
+                    
+                    <StackLayout HeightRequest="36" Orientation="Horizontal">
+                        <Label Text="我的点评" FontSize="17" HeightRequest="36" TextColor="#2e3231" HorizontalOptions="Start" HorizontalTextAlignment="Start" VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                        <Image Margin="0,0,14,0" Source="r.jpg" HeightRequest="17" HorizontalOptions="EndAndExpand" VerticalOptions="Center"/>
+                    </StackLayout>
+
+                    <StackLayout HeightRequest="1" Margin="0,0,0,0" BackgroundColor="#ececec"/>
+                    
+                    <StackLayout HeightRequest="36" Orientation="Horizontal">
+                        <Label Text="用户反馈" FontSize="17" HeightRequest="36" TextColor="#2e3231" HorizontalOptions="Start" HorizontalTextAlignment="Start" VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                        <Image Margin="0,0,14,0" Source="r.jpg" HeightRequest="17" HorizontalOptions="EndAndExpand" VerticalOptions="Center"/>
+                    </StackLayout>
+
+                    <StackLayout HeightRequest="1" Margin="0,0,0,0" BackgroundColor="#ececec"/>
+                    
+                    <StackLayout HeightRequest="36" Orientation="Horizontal">
+                        <Label Text="联系客服" FontSize="17" HeightRequest="36" TextColor="#2e3231" HorizontalOptions="Start" HorizontalTextAlignment="Start" VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                        <Image Margin="0,0,14,0" Source="r.jpg" HeightRequest="17" HorizontalOptions="EndAndExpand" VerticalOptions="Center"/>
+                    </StackLayout>
+
+                    <StackLayout HeightRequest="1" Margin="0,0,0,0" BackgroundColor="#ececec"/>
+
+                    <StackLayout HeightRequest="36" Orientation="Horizontal">
+                        <Label Text="官方在线客服" FontSize="17" HeightRequest="36" TextColor="#2e3231" HorizontalOptions="Start" HorizontalTextAlignment="Start" VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                        <Image Margin="0,0,14,0" Source="r.jpg" HeightRequest="17" HorizontalOptions="EndAndExpand" VerticalOptions="Center"/>
+                    </StackLayout>
+
+                </StackLayout>
+                
+                <StackLayout HeightRequest="10" BackgroundColor="#f7f7f7"/>
+                
+            </StackLayout>
+            
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

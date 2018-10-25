@@ -1,5 +1,6 @@
 ﻿using Samples.Directory.Senior.CarouselView;
 using Samples.Directory.Senior.LianJiaLoginStatic;
+using Samples.Directory.Senior.LianJiaMy;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,6 +29,11 @@ namespace Samples
         private void LianJiaLoginStaticSamples_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new LianJiaLoginStaticSamples());
+        }
+
+        private void LianJiaMySamples_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new LianJiaMySamples());
         }
 
         
