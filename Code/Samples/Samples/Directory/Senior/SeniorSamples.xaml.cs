@@ -1,4 +1,5 @@
 ﻿using Samples.Directory.Senior.CarouselView;
+using Samples.Directory.Senior.LianIndex;
 using Samples.Directory.Senior.LianJiaLoginStatic;
 using Samples.Directory.Senior.LianJiaMy;
 using System;
@@ -18,7 +19,8 @@ namespace Samples
 		public SeniorSamples()
 		{
 			InitializeComponent ();
-		}
+
+        }
 
 
         private void CarouselViewSamples_Clicked(object sender, EventArgs e)
@@ -34,6 +36,11 @@ namespace Samples
         private void LianJiaMySamples_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new LianJiaMySamples());
+        }
+
+        private void LianJiaIndexSamples_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new LianJiaIndexSamples());
         }
 
         

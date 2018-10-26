@@ -18,6 +18,10 @@
                 <Button Text="LianJiaMy(仿lianjia我的布局)" Clicked="LianJiaMySamples_Clicked" />
             </StackLayout>
 
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="LianJiaIndex(仿lianjia首页布局)" Clicked="LianJiaIndexSamples_Clicked" />
+            </StackLayout>
+
         </StackLayout>
 
 

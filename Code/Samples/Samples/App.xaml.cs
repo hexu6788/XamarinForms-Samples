@@ -13,6 +13,7 @@ namespace Samples
             InitializeComponent();
 
             MainPage = new NavigationPage(new DirectorySamples());
+
             CurrentPage = MainPage;
         }
 

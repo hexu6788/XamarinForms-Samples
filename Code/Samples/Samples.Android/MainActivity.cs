@@ -25,7 +25,22 @@ namespace Samples.Droid
 
             CarouselViewRenderer.Init();
 
+
+
             LoadApplication(new App());
+
+
+            SetFullScreen();
+
+        }
+
+        /// <summary>
+        /// Android 全屏模式
+        /// </summary>
+        void SetFullScreen()
+        {
+            SetStatusBarColor(Android.Graphics.Color.Transparent);
+            Window.DecorView.SystemUiVisibility = (StatusBarVisibility)(SystemUiFlags.LayoutStable | SystemUiFlags.LayoutFullscreen);
         }
     }
 }

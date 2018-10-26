@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Samples.Directory.Senior.LianIndex.LianJiaIndexSamples"
+             xmlns:carouselView="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical" VerticalScrollBarVisibility="Never">
+            
+            <StackLayout Orientation="Vertical">
+
+                <StackLayout HeightRequest="210" Orientation="Vertical">
+                    <carouselView:CarouselViewControl Orientation="Horizontal" InterPageSpacing="0"
+                                  ItemsSource="{Binding SourceList}" ShowIndicators="True" AnimateTransition="True"
+                                  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
+                                                      CurrentPageIndicatorTintColor="White">
+                        <carouselView:CarouselViewControl.ItemTemplate>
+                            <DataTemplate>
+                                <Image Source="{Binding Source}" Aspect="Fill" BackgroundColor="Yellow"/>
+                            </DataTemplate>
+                        </carouselView:CarouselViewControl.ItemTemplate>
+                    </carouselView:CarouselViewControl>
+                </StackLayout>
+
+                <StackLayout HeightRequest="220" Orientation="Vertical">
+                    <carouselView:CarouselViewControl Orientation="Horizontal" InterPageSpacing="0"
+                                  ItemsSource="{Binding MenuList}" ShowIndicators="True" AnimateTransition="True"
+                                  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
+                                                      CurrentPageIndicatorTintColor="Green">
+                        <carouselView:CarouselViewControl.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout>
+
+                                    <Grid ColumnSpacing="0" RowSpacing="0">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="8*" />
+                                            <RowDefinition Height="8*" />
+                                            <RowDefinition Height="*" />
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+
+                                        <StackLayout Grid.Row="0" Grid.Column="0">
+                                            <Image Margin="16,10,16,0" Source="{Binding AIconSource}" HorizontalOptions="Center"/>
+                                            <Label Text="{Binding AName}" HorizontalOptions="Center"/>
+                                        </StackLayout>
+                                        <StackLayout Grid.Row="0" Grid.Column="1">
+                                            <Image Margin="16,10,16,0" Source="{Binding BIconSource}" HorizontalOptions="Center"/>
+                                            <Label Text="{Binding BName}" HorizontalOptions="Center"/>
+                                        </StackLayout>
+                                        <StackLayout Grid.Row="0" Grid.Column="2">
+                                            <Image Margin="16,10,16,0" Source="{Binding CIconSource}" HorizontalOptions="Center"/>
+                                            <Label Text="{Binding CName}" HorizontalOptions="Center"/>
+                                        </StackLayout>
+                                        <StackLayout Grid.Row="0" Grid.Column="3">
+                                            <Image Margin="16,10,16,0" Source="{Binding DIconSource}" HorizontalOptions="Center"/>
+                                            <Label Text="{Binding DName}" HorizontalOptions="Center"/>
+                                        </StackLayout>
+                                        <StackLayout Grid.Row="0" Grid.Column="4">
+                                            <Image Margin="16,10,16,0" Source="{Binding EIconSource}" HorizontalOptions="Center"/>
+                                            <Label Text="{Binding EName}" HorizontalOptions="Center"/>
+                                        </StackLayout>
+                                        <StackLayout Grid.Row="1" Grid.Column="0">
+                                            <Image Margin="16,10,16,0" Source="{Binding FIconSource}" HorizontalOptions="Center"/>
+                                            <Label Text="{Binding FName}" HorizontalOptions="Center"/>
+                                        </StackLayout>
+                                        <StackLayout  Grid.Row="1" Grid.Column="1">
+                                            <Image Margin="16,10,16,0" Source="{Binding GIconSource}" HorizontalOptions="Center"/>
+                                            <Label Text="{Binding GName}" HorizontalOptions="Center"/>
+                                        </StackLayout>
+                                        <StackLayout Grid.Row="1" Grid.Column="2">
+                                            <Image Margin="16,10,16,0" Source="{Binding HIconSource}" HorizontalOptions="Center"/>
+                                            <Label Text="{Binding HName}" HorizontalOptions="Center"/>
+                                        </StackLayout>
+                                        <StackLayout Grid.Row="1" Grid.Column="3">
+                                            <Image Margin="16,10,16,0" Source="{Binding AIconSource}" HorizontalOptions="Center"/>
+                                            <Label Text="{Binding AName}" HorizontalOptions="Center"/>
+                                        </StackLayout>
+                                        <StackLayout Grid.Row="1" Grid.Column="4">
+                                            <Image Margin="16,10,16,0" Source="{Binding BIconSource}" HorizontalOptions="Center"/>
+                                            <Label Text="{Binding BName}" HorizontalOptions="Center"/>
+                                        </StackLayout>
+
+                                        <StackLayout Grid.Row="2" Grid.ColumnSpan="5">
+                                        </StackLayout>
+                                    </Grid>
+                                </StackLayout>
+                            </DataTemplate>
+                        </carouselView:CarouselViewControl.ItemTemplate>
+                    </carouselView:CarouselViewControl>
+                </StackLayout>
+
+
+                <StackLayout HeightRequest="3" BackgroundColor="#f7f7f7"/>
+
+
+                <StackLayout Padding="20,20,20,20">
+                    <Grid ColumnSpacing="10" RowSpacing="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <StackLayout Grid.Row="0" Grid.Column="0" BackgroundColor="#f7f7f7" Orientation="Horizontal">
+                            <StackLayout Margin="20,15,0,15" HorizontalOptions="StartAndExpand" VerticalOptions="Center">
+                                <Label Text="低价过渡房" TextColor="#212528" FontSize="15" HorizontalOptions="Start"/>
+                                <Label Text="50万内拿走" TextColor="#aaaaaa" FontSize="13" HorizontalOptions="Start"/>
+                            </StackLayout>
+                            <Image Source="s1.jpg" WidthRequest="50" HeightRequest="50" HorizontalOptions="End" Margin="0,0,10,0" VerticalOptions="Center"/>
+                        </StackLayout>
+                        <StackLayout Grid.Row="0" Grid.Column="1" BackgroundColor="#f7f7f7" Orientation="Horizontal">
+                            <StackLayout Margin="20,15,0,15" HorizontalOptions="StartAndExpand" VerticalOptions="Center">
+                                <Label Text="热搜排行榜" TextColor="#212528" FontSize="15" HorizontalOptions="Start"/>
+                                <Label Text="一二三居受宠" TextColor="#aaaaaa" FontSize="13" HorizontalOptions="Start"/>
+                            </StackLayout>
+                            <Image Source="s2.jpg" WidthRequest="50" HeightRequest="50" HorizontalOptions="End" Margin="0,0,10,0" VerticalOptions="Center"/>
+                        </StackLayout>
+                        <StackLayout Grid.Row="1" Grid.Column="0" BackgroundColor="#f7f7f7" Orientation="Horizontal">
+                            <StackLayout Margin="20,15,0,15" HorizontalOptions="StartAndExpand" VerticalOptions="Center">
+                                <Label Text="一周人气王" TextColor="#212528" FontSize="15" HorizontalOptions="Start"/>
+                                <Label Text="总价33万起" TextColor="#aaaaaa" FontSize="13" HorizontalOptions="Start"/>
+                            </StackLayout>
+                            <Image Source="s3.jpg" WidthRequest="50" HeightRequest="50" HorizontalOptions="End" Margin="0,0,10,0" VerticalOptions="Center"/>
+                        </StackLayout>
+                        <StackLayout Grid.Row="1" Grid.Column="1" BackgroundColor="#f7f7f7" Orientation="Horizontal">
+                            <StackLayout Margin="20,15,0,15" HorizontalOptions="StartAndExpand" VerticalOptions="Center">
+                                <Label Text="小户型楼盘" TextColor="#212528" FontSize="15" HorizontalOptions="Start"/>
+                                <Label Text="十月即将预售" TextColor="#aaaaaa" FontSize="13" HorizontalOptions="Start"/>
+                            </StackLayout>
+                            <Image Source="s4.jpg" WidthRequest="50" HeightRequest="50" HorizontalOptions="End" Margin="0,0,10,0" VerticalOptions="Center"/>
+                        </StackLayout>
+                    </Grid>
+                </StackLayout>
+
+
+                <StackLayout Orientation="Horizontal" Margin="20,20,20,0">
+                    <Label Text="成都市场行情" FontSize="22" TextColor="#17191b" HorizontalOptions="StartAndExpand" VerticalOptions="Center"/>
+                    <Label Text="更多房价 >" FontSize="14" TextColor="#aaaaaa" HorizontalOptions="End" VerticalOptions="End"/>
+                </StackLayout>
+
+
+                <Grid Margin="20,20,20,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="100*" />
+                    </Grid.ColumnDefinitions>
+
+                    <StackLayout Grid.Row="0" Grid.Column="0">
+                        <Label Text="14694" FontSize="34" TextColor="#17191b" HorizontalOptions="Center" FontAttributes="Bold"/>
+                        <Label Text="全市均价（元/平米）" FontSize="12" TextColor="#aaaaaa" HorizontalOptions="Center"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="0" Grid.Column="1" BackgroundColor="#f7f7f7"></StackLayout>
+                    <StackLayout Grid.Row="0" Grid.Column="2">
+                        <Label Text="-2.71%" FontSize="34" TextColor="#17191b" HorizontalOptions="Center" FontAttributes="Bold"/>
+                        <Label Text="比上月" FontSize="12" TextColor="#aaaaaa" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Grid>
+
+
+                <Label Text="低价好房" Margin="20,20,20,0" FontSize="22" TextColor="#17191b" HorizontalOptions="StartAndExpand" VerticalOptions="Center"/>
+                <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                    <StackLayout Orientation="Horizontal">
+                        <StackLayout Margin="20,0,0,0" HeightRequest="150" WidthRequest="180">
+                            <Image Source="l1.jpg"/>
+                            <Label Text="环线带来质的飞跃" FontSize="17" TextColor="#17191b" HorizontalOptions="Start"/>
+                            <Label Text="7号线房价地图" FontSize="12" TextColor="#aaaaaa" HorizontalOptions="Start"/>
+                        </StackLayout>
+
+                        <StackLayout Margin="0,0,0,0" HeightRequest="150" WidthRequest="180">
+                            <Image Source="l2.jpg"/>
+                            <Label Text="不在市区打堆堆" FontSize="17" TextColor="#17191b" HorizontalOptions="Start"/>
+                            <Label Text="近郊区好房等你选" FontSize="12" TextColor="#aaaaaa" HorizontalOptions="Start"/>
+                        </StackLayout>
+
+                        <StackLayout Margin="0,0,0,0" HeightRequest="150" WidthRequest="180">
+                            <Image Source="l3.jpg"/>
+                            <Label Text="想住进成熟片区" FontSize="17" TextColor="#17191b" HorizontalOptions="Start"/>
+                            <Label Text="建议考虑一下双栏" FontSize="12" TextColor="#aaaaaa" HorizontalOptions="Start"/>
+                        </StackLayout>
+
+                        <StackLayout Margin="0,0,0,20" HeightRequest="150" WidthRequest="180">
+                            <Image Source="l3.jpg"/>
+                            <Label Text="这些单价不过万" FontSize="17" TextColor="#17191b" HorizontalOptions="Start"/>
+                            <Label Text="前卫与市进并存的猛追湾" FontSize="12" TextColor="#aaaaaa" HorizontalOptions="Start"/>
+                        </StackLayout>
+                    </StackLayout>
+                </ScrollView>
+
+                <Label Text="居住升级" Margin="20,20,20,0" FontSize="22" TextColor="#17191b" HorizontalOptions="StartAndExpand" VerticalOptions="Center"/>
+                <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                    <StackLayout Orientation="Horizontal">
+                        <StackLayout Margin="20,0,0,0" HeightRequest="150" WidthRequest="180">
+                            <Image Source="l5.jpg"/>
+                            <Label Text="抓紧时间换好房" FontSize="17" TextColor="#17191b" HorizontalOptions="Start"/>
+                            <Label Text="余额已不足四分之一" FontSize="12" TextColor="#aaaaaa" HorizontalOptions="Start"/>
+                        </StackLayout>
+
+                        <StackLayout Margin="0,0,0,0" HeightRequest="150" WidthRequest="180">
+                            <Image Source="l4.jpg"/>
+                            <Label Text="城东城西交通要道" FontSize="17" TextColor="#17191b" HorizontalOptions="Start"/>
+                            <Label Text="4号线房价地图" FontSize="12" TextColor="#aaaaaa" HorizontalOptions="Start"/>
+                        </StackLayout>
+
+                        <StackLayout Margin="0,0,0,0" HeightRequest="150" WidthRequest="180">
+                            <Image Source="l2.jpg"/>
+                            <Label Text="想住进成熟片区" FontSize="17" TextColor="#17191b" HorizontalOptions="Start"/>
+                            <Label Text="建议考虑一下双栏" FontSize="12" TextColor="#aaaaaa" HorizontalOptions="Start"/>
+                        </StackLayout>
+
+                        <StackLayout Margin="0,0,0,20" HeightRequest="150" WidthRequest="180">
+                            <Image Source="l1.jpg"/>
+                            <Label Text="抓紧时间换好房" FontSize="17" TextColor="#17191b" HorizontalOptions="Start"/>
+                            <Label Text="城东城西交通要道" FontSize="12" TextColor="#aaaaaa" HorizontalOptions="Start"/>
+                        </StackLayout>
+
+                        <StackLayout Margin="0,0,0,20" HeightRequest="150" WidthRequest="180">
+                            <Image Source="l3.jpg"/>
+                            <Label Text="3号线房价地图" FontSize="17" TextColor="#17191b" HorizontalOptions="Start"/>
+                            <Label Text="想住进成熟片区" FontSize="12" TextColor="#aaaaaa" HorizontalOptions="Start"/>
+                        </StackLayout>
+                    </StackLayout>
+                </ScrollView>
+
+                <Label Text="新盘实探" Margin="20,20,20,0" FontSize="22" TextColor="#17191b" HorizontalOptions="StartAndExpand" VerticalOptions="Center"/>
+                <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                    <StackLayout Orientation="Horizontal">
+                        <StackLayout Margin="20,0,0,0" HeightRequest="150" WidthRequest="180">
+                            <Image Source="l1.jpg"/>
+                            <Label Text="环线带来质的飞跃" FontSize="17" TextColor="#17191b" HorizontalOptions="Start"/>
+                            <Label Text="7号线房价地图" FontSize="12" TextColor="#aaaaaa" HorizontalOptions="Start"/>
+                        </StackLayout>
+
+                        <StackLayout Margin="0,0,0,0" HeightRequest="150" WidthRequest="180">
+                            <Image Source="l2.jpg"/>
+                            <Label Text="不在市区打堆堆" FontSize="17" TextColor="#17191b" HorizontalOptions="Start"/>
+                            <Label Text="近郊区好房等你选" FontSize="12" TextColor="#aaaaaa" HorizontalOptions="Start"/>
+                        </StackLayout>
+
+                        <StackLayout Margin="0,0,0,0" HeightRequest="150" WidthRequest="180">
+                            <Image Source="l3.jpg"/>
+                            <Label Text="想住进成熟片区" FontSize="17" TextColor="#17191b" HorizontalOptions="Start"/>
+                            <Label Text="建议考虑一下双栏" FontSize="12" TextColor="#aaaaaa" HorizontalOptions="Start"/>
+                        </StackLayout>
+
+                        <StackLayout Margin="0,0,0,20" HeightRequest="150" WidthRequest="180">
+                            <Image Source="l3.jpg"/>
+                            <Label Text="这些单价不过万" FontSize="17" TextColor="#17191b" HorizontalOptions="Start"/>
+                            <Label Text="前卫与市进并存的猛追湾" FontSize="12" TextColor="#aaaaaa" HorizontalOptions="Start"/>
+                        </StackLayout>
+                    </StackLayout>
+                </ScrollView>
+
+                <Label Text="住在成都" Margin="20,20,20,0" FontSize="22" TextColor="#17191b" HorizontalOptions="StartAndExpand" VerticalOptions="Center"/>
+                <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                    <StackLayout Orientation="Horizontal">
+                        <StackLayout Margin="20,0,0,0" HeightRequest="150" WidthRequest="180">
+                            <Image Source="l5.jpg"/>
+                            <Label Text="抓紧时间换好房" FontSize="17" TextColor="#17191b" HorizontalOptions="Start"/>
+                            <Label Text="余额已不足四分之一" FontSize="12" TextColor="#aaaaaa" HorizontalOptions="Start"/>
+                        </StackLayout>
+
+                        <StackLayout Margin="0,0,0,0" HeightRequest="150" WidthRequest="180">
+                            <Image Source="l4.jpg"/>
+                            <Label Text="城东城西交通要道" FontSize="17" TextColor="#17191b" HorizontalOptions="Start"/>
+                            <Label Text="4号线房价地图" FontSize="12" TextColor="#aaaaaa" HorizontalOptions="Start"/>
+                        </StackLayout>
+
+                        <StackLayout Margin="0,0,0,0" HeightRequest="150" WidthRequest="180">
+                            <Image Source="l2.jpg"/>
+                            <Label Text="想住进成熟片区" FontSize="17" TextColor="#17191b" HorizontalOptions="Start"/>
+                            <Label Text="建议考虑一下双栏" FontSize="12" TextColor="#aaaaaa" HorizontalOptions="Start"/>
+                        </StackLayout>
+
+                        <StackLayout Margin="0,0,0,20" HeightRequest="150" WidthRequest="180">
+                            <Image Source="l1.jpg"/>
+                            <Label Text="抓紧时间换好房" FontSize="17" TextColor="#17191b" HorizontalOptions="Start"/>
+                            <Label Text="城东城西交通要道" FontSize="12" TextColor="#aaaaaa" HorizontalOptions="Start"/>
+                        </StackLayout>
+
+                        <StackLayout Margin="0,0,0,20" HeightRequest="150" WidthRequest="180">
+                            <Image Source="l3.jpg"/>
+                            <Label Text="3号线房价地图" FontSize="17" TextColor="#17191b" HorizontalOptions="Start"/>
+                            <Label Text="想住进成熟片区" FontSize="12" TextColor="#aaaaaa" HorizontalOptions="Start"/>
+                        </StackLayout>
+                    </StackLayout>
+                </ScrollView>
+
+                <Button Text="查看全部二手房源" BackgroundColor="#58ab88" TextColor="Green" HorizontalOptions="Fill" VerticalOptions="Center" Margin="40,20,40,20"/>
+
+                <StackLayout HeightRequest="20"></StackLayout>
+                
+            </StackLayout>
+            
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

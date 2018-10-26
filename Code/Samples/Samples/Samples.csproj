@@ -82,6 +82,9 @@
     <EmbeddedResource Update="Directory\Senior\CarouselView\CarouselViewSamples.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Directory\Senior\LianIndex\LianJiaIndexSamples.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Directory\Senior\LianJiaLoginStatic\LianJiaLoginStaticSamples.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
