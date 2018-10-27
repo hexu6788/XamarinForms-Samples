@@ -5,6 +5,7 @@ using Samples.Directory.Base.Entry;
 using Samples.Directory.Base.Image;
 using Samples.Directory.Base.Label;
 using Samples.Directory.Base.ListView;
+using Samples.Directory.Base.Navigation;
 using Samples.Directory.Base.WebView;
 using System;
 using System.Collections.Generic;
@@ -65,7 +66,12 @@ namespace Samples
             Navigation.PushAsync(new WebViewSamples());
         }
 
+        private void NavigationSamples_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new NavigationSamples());
+        }
 
         
+
     }
 }

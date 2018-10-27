@@ -38,6 +38,10 @@
             <StackLayout Margin="0,20,0,0" >
                 <Button Text="WebView(网页视图)" Clicked="WebViewSamples_Clicked" />
             </StackLayout>
+
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="Navigation(导航)" Clicked="NavigationSamples_Clicked" />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

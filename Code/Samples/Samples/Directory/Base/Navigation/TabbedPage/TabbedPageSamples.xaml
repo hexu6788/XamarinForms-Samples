@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Samples.Directory.Base.Navigation.TabbedPage.TabbedPageSamples">
+    
+    <ContentPage Title="第一页">
+        <StackLayout Margin="0,20,0,0">
+            <Label Text="1"/>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="第二页">
+        <StackLayout Margin="0,20,0,0">
+            <Label Text="2"/>
+            <Label Text="2"/>
+            <Label Text="2"/>
+            <Label Text="2"/>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="第三页">
+        <StackLayout Margin="0,20,0,0">
+            <Label Text="3"/>
+            <Label Text="3"/>
+            <Label Text="3"/>
+            <Label Text="3"/>
+            <Label Text="3"/>
+            <Label Text="3"/>
+            <Label Text="3"/>
+            <Label Text="3"/>
+        </StackLayout>
+    </ContentPage>
+    
+</TabbedPage>
