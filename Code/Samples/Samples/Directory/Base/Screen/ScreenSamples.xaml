@@ -3,11 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Samples.Directory.Base.Screen.ScreenSamples">
     <ContentPage.Content>
-        <StackLayout Orientation="Horizontal" WidthRequest="{de}">
-
-            
-            
-            
+        <StackLayout Orientation="Horizontal">
             <Label Text="ldpi   : 320 * 240     ~120dpi     3"/>
             <Label Text="mdpi   : 320 * 480     ~160dpi     4"/>
             <Label Text="hdpi   : 480 * 800     ~240dpi     6"/>
