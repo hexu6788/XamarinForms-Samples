@@ -34,6 +34,10 @@
                 <Button Text="AbsoluteLayout(绝对布局)" Clicked="AbsoluteLayoutSamples_Clicked" />
             </StackLayout>
 
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="AbsoluteLayout(固定文本框在顶部)" Clicked="AbsoluteLayout2Samples_Clicked" />
+            </StackLayout>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

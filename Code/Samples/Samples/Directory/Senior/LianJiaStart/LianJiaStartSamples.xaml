@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Samples.Directory.Senior.LianJiaStart.LianJiaStartSamples"
+             xmlns:carouselView="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions">
+    <ContentPage.Content>
+        <carouselView:CarouselViewControl Orientation="Horizontal" InterPageSpacing="0"
+                                  ItemsSource="{Binding List}" ShowIndicators="True" AnimateTransition="True"
+                                  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
+                                                      CurrentPageIndicatorTintColor="White"
+                                          Scrolled="CarouselViewControl_Scrolled">
+            <carouselView:CarouselViewControl.ItemTemplate>
+                <DataTemplate>
+                    <Image Aspect="AspectFill" Source="{Binding Url}" HorizontalOptions="Fill" VerticalOptions="Fill" />
+                </DataTemplate>
+            </carouselView:CarouselViewControl.ItemTemplate>
+        </carouselView:CarouselViewControl>
+    </ContentPage.Content>
+</ContentPage>

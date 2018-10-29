@@ -56,6 +56,11 @@ namespace Samples.Base.Layout
             Navigation.PushAsync(new AbsoluteLayoutSamples());
         }
 
+        private void AbsoluteLayout2Samples_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AbsoluteLayout2Samples());
+        }
         
+
     }
 }

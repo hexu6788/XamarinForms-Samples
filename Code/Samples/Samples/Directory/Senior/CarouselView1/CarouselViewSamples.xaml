@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Samples.Directory.Senior.CarouselView.CarouselViewSamples"
+             x:Class="Samples.Directory.Senior.CarouselView1.CarouselViewSamples"
              xmlns:carouselView="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
              xmlns:local="clr-namespace:Samples.Controls;assembly=Samples">
     <ContentPage.Content>

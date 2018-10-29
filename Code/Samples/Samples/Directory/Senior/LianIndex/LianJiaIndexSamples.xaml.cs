@@ -1,5 +1,5 @@
 ﻿using Samples.Controls;
-using Samples.Directory.Senior.CarouselView;
+using Samples.Directory.Senior.CarouselView1;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -25,7 +25,33 @@ namespace Samples.Directory.Senior.LianIndex
 
             BindingContext = new LianJiaIndexViewModel();
         }
-	}
+
+
+        private void ScrollView_Scrolled(object sender, ScrolledEventArgs e)
+        {
+
+            if (e.ScrollY > 60)
+            {
+                var search = FindByName("search") as Xamarin.Forms.StackLayout;
+                var searchTop = FindByName("search_top") as Xamarin.Forms.StackLayout;
+                var searchText = FindByName("search_text") as Xamarin.Forms.Frame;
+
+                search.BackgroundColor = Color.White;
+                searchTop.BackgroundColor = Color.Black;
+                searchText.BackgroundColor = Color.FromHex("#ededed");
+            }
+            else
+            {
+                var search = FindByName("search") as Xamarin.Forms.StackLayout;
+                var searchTop = FindByName("search_top") as Xamarin.Forms.StackLayout;
+                var searchText = FindByName("search_text") as Xamarin.Forms.Frame;
+
+                search.BackgroundColor = Color.Transparent;
+                searchTop.BackgroundColor = Color.Transparent;
+                searchText.BackgroundColor = Color.White;
+            }
+        }
+    }
 
     public class LianJiaIndexViewModel : INotifyPropertyChanged
     {

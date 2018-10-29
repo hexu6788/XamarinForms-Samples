@@ -13,6 +13,9 @@
     <Compile Update="Directory\Base\BaseSamples.xaml.cs">
       <DependentUpon>BaseSamples.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Directory\Base\Layout\AbsoluteLayout\AbsoluteLayout2Samples.xaml.cs">
+      <DependentUpon>AbsoluteLayout2Samples.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Directory\DirectorySamples.xaml.cs">
       <DependentUpon>DirectorySamples.xaml</DependentUpon>
     </Compile>
@@ -85,7 +88,7 @@
     <EmbeddedResource Update="Directory\DirectorySamples.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Directory\Senior\CarouselView\CarouselViewSamples.xaml">
+    <EmbeddedResource Update="Directory\Senior\CarouselView1\CarouselViewSamples.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Directory\Senior\LianIndex\LianJiaIndexSamples.xaml">
@@ -95,6 +98,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Directory\Senior\LianJiaMy\LianJiaMySamples.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Directory\Senior\LianJiaStart\LianJiaStartSamples.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Directory\Senior\SeniorSamples.xaml">

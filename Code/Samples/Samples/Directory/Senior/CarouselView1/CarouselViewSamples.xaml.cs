@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Samples.Directory.Senior.CarouselView
+namespace Samples.Directory.Senior.CarouselView1
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class CarouselViewSamples : ContentPage

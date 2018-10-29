@@ -752,7 +752,6 @@ namespace Samples.Droid
 			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_ic_visibility_off = global::Samples.Droid.Resource.Drawable.design_ic_visibility_off;
 			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_password_eye = global::Samples.Droid.Resource.Drawable.design_password_eye;
 			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_snackbar_background = global::Samples.Droid.Resource.Drawable.design_snackbar_background;
-			global::CarouselView.FormsPlugin.Android.Resource.Drawable.Down = global::Samples.Droid.Resource.Drawable.Down;
 			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_audiotrack_dark = global::Samples.Droid.Resource.Drawable.ic_audiotrack_dark;
 			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_audiotrack_light = global::Samples.Droid.Resource.Drawable.ic_audiotrack_light;
 			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_dialog_close_dark = global::Samples.Droid.Resource.Drawable.ic_dialog_close_dark;
@@ -4604,26 +4603,26 @@ namespace Samples.Droid
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f02014b
-			public const int avd_hide_password_1 = 2130837835;
+			// aapt resource value: 0x7f02014f
+			public const int avd_hide_password_1 = 2130837839;
 			
-			// aapt resource value: 0x7f02014c
-			public const int avd_hide_password_2 = 2130837836;
+			// aapt resource value: 0x7f020150
+			public const int avd_hide_password_2 = 2130837840;
 			
-			// aapt resource value: 0x7f02014d
-			public const int avd_hide_password_3 = 2130837837;
+			// aapt resource value: 0x7f020151
+			public const int avd_hide_password_3 = 2130837841;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f02014e
-			public const int avd_show_password_1 = 2130837838;
+			// aapt resource value: 0x7f020152
+			public const int avd_show_password_1 = 2130837842;
 			
-			// aapt resource value: 0x7f02014f
-			public const int avd_show_password_2 = 2130837839;
+			// aapt resource value: 0x7f020153
+			public const int avd_show_password_2 = 2130837843;
 			
-			// aapt resource value: 0x7f020150
-			public const int avd_show_password_3 = 2130837840;
+			// aapt resource value: 0x7f020154
+			public const int avd_show_password_3 = 2130837844;
 			
 			// aapt resource value: 0x7f020055
 			public const int close = 2130837589;
@@ -4647,7 +4646,7 @@ namespace Samples.Droid
 			public const int design_snackbar_background = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int Down = 2130837596;
+			public const int down = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
 			public const int gear = 2130837597;
@@ -5324,11 +5323,11 @@ namespace Samples.Droid
 			// aapt resource value: 0x7f02013d
 			public const int notification_icon_background = 2130837821;
 			
-			// aapt resource value: 0x7f020149
-			public const int notification_template_icon_bg = 2130837833;
+			// aapt resource value: 0x7f02014d
+			public const int notification_template_icon_bg = 2130837837;
 			
-			// aapt resource value: 0x7f02014a
-			public const int notification_template_icon_low_bg = 2130837834;
+			// aapt resource value: 0x7f02014e
+			public const int notification_template_icon_low_bg = 2130837838;
 			
 			// aapt resource value: 0x7f02013e
 			public const int notification_tile_bg = 2130837822;
@@ -5355,13 +5354,25 @@ namespace Samples.Droid
 			public const int s4 = 2130837829;
 			
 			// aapt resource value: 0x7f020146
-			public const int tooltip_frame_dark = 2130837830;
+			public const int search = 2130837830;
 			
 			// aapt resource value: 0x7f020147
-			public const int tooltip_frame_light = 2130837831;
+			public const int start_1 = 2130837831;
 			
 			// aapt resource value: 0x7f020148
-			public const int Up = 2130837832;
+			public const int start_2 = 2130837832;
+			
+			// aapt resource value: 0x7f020149
+			public const int start_3 = 2130837833;
+			
+			// aapt resource value: 0x7f02014a
+			public const int tooltip_frame_dark = 2130837834;
+			
+			// aapt resource value: 0x7f02014b
+			public const int tooltip_frame_light = 2130837835;
+			
+			// aapt resource value: 0x7f02014c
+			public const int Up = 2130837836;
 			
 			static Drawable()
 			{

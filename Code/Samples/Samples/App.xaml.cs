@@ -1,4 +1,5 @@
 using Samples.Directory;
+using Samples.Directory.Senior.LianJiaStart;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -12,7 +13,7 @@ namespace Samples
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new DirectorySamples());
+            MainPage = new LianJiaStartSamples();
 
             CurrentPage = MainPage;
         }

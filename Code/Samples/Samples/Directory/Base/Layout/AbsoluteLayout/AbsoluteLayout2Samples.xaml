@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Samples.Directory.Base.Layout.AbsoluteLayout.AbsoluteLayout2Samples"
+             xmlns:local="clr-namespace:Samples.Controls;assembly=Samples">
+    <ContentPage.Content>
+
+        <StackLayout>
+
+            <AbsoluteLayout>
+
+                <ScrollView Orientation="Vertical" VerticalScrollBarVisibility="Never" AbsoluteLayout.LayoutBounds="0,0,1,1"
+                AbsoluteLayout.LayoutFlags="All" Scrolled="ScrollView_Scrolled">
+                    <StackLayout BackgroundColor="Red">
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+                        <Label Text="示例：固定一个文本到顶部"/>
+
+                    </StackLayout>
+                </ScrollView>
+
+                <StackLayout x:Name="search" BackgroundColor="#f9f9f9" AbsoluteLayout.LayoutBounds="0,40,1,60"
+                             AbsoluteLayout.LayoutFlags="WidthProportional" Padding="20,10,20,10">
+
+                    <Frame Padding="0,0,0,0" HeightRequest="40" BackgroundColor="#ededed" CornerRadius="2" HasShadow="False" HorizontalOptions="Fill" VerticalOptions="Fill">
+                        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                            <Label FontAttributes="Bold" Text="成都" Margin="30,0,5,0" TextColor="#3a4144"/>
+                            <Image Source="down.png" VerticalOptions="Center" HeightRequest="8" WidthRequest="12"/>
+                            <StackLayout Margin="15,0,15,0" WidthRequest="2" HeightRequest="20" BackgroundColor="#e5e5e5"/>
+                            <Image Source="search.png" VerticalOptions="Center" HeightRequest="20" WidthRequest="20"/>
+                            <Label Text="你想住哪儿？" Margin="5,0,0,0" TextColor="#9c9fa1"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </AbsoluteLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

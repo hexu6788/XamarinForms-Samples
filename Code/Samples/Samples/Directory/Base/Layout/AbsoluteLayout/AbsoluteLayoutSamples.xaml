@@ -8,7 +8,6 @@
         <StackLayout>
 
             <local:SampleNavigation Text="示例：一个高度60，宽度60在右下方的绝对布局" XamlCodeUrl="Directory/Base/Layout/AbsoluteLayout/AbsoluteLayoutSamples.xaml" CSharpCodeUrl="Directory/Base/Layout/AbsoluteLayout/AbsoluteLayoutSamples.xaml.cs"/>
-
             <AbsoluteLayout>
 
                 <ScrollView Orientation="Vertical" VerticalScrollBarVisibility="Never" AbsoluteLayout.LayoutBounds="0,0,1,1"
@@ -50,7 +49,7 @@
                         <Label Text="绝对布局"/>
                     </StackLayout>
                 </ScrollView>
-                
+
                 <BoxView Color="Blue" HeightRequest="60" WidthRequest="60" AbsoluteLayout.LayoutBounds="0.9,0.9, 60, 60"
                 AbsoluteLayout.LayoutFlags="PositionProportional"/>
             </AbsoluteLayout>
