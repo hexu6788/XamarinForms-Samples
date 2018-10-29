@@ -38,6 +38,10 @@
                 <Button Text="AbsoluteLayout(固定文本框在顶部)" Clicked="AbsoluteLayout2Samples_Clicked" />
             </StackLayout>
 
+
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="Grid(表格布局)" Clicked="GridSamples_Clicked" />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

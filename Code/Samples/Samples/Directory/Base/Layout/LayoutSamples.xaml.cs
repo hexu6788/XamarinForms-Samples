@@ -1,5 +1,6 @@
 ﻿
 using Samples.Directory.Base.Layout.AbsoluteLayout;
+using Samples.Directory.Base.Layout.Grid;
 using Samples.Directory.Base.Layout.ScrollView;
 using Samples.Directory.Base.Layout.StackLayout;
 using System;
@@ -59,6 +60,11 @@ namespace Samples.Base.Layout
         private void AbsoluteLayout2Samples_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new AbsoluteLayout2Samples());
+        }
+
+        private void GridSamples_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new GridSamples());
         }
         
 

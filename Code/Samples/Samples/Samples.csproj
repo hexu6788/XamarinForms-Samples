@@ -52,6 +52,9 @@
     <EmbeddedResource Update="Directory\Base\Layout\AbsoluteLayout\AbsoluteLayoutSamples.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Directory\Base\Layout\Grid\GridSamples.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Directory\Base\Layout\LayoutSamples.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
