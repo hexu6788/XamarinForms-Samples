@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Samples.Directory.Base.Screen.ScreenSamples">
+    <ContentPage.Content>
+        <StackLayout Orientation="Horizontal" WidthRequest="{de}">
+
+            
+            
+            
+            <Label Text="ldpi   : 320 * 240     ~120dpi     3"/>
+            <Label Text="mdpi   : 320 * 480     ~160dpi     4"/>
+            <Label Text="hdpi   : 480 * 800     ~240dpi     6"/>
+            <Label Text="xhdpi  : 1280 * 720    ~320dpi     8"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

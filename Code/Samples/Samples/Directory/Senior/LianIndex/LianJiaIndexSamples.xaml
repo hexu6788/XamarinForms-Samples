@@ -302,7 +302,7 @@
                         </StackLayout>
                     </ScrollView>
 
-                    <Button Text="查看全部二手房源" BackgroundColor="#58ab88" TextColor="Green" HorizontalOptions="Fill" VerticalOptions="Center" Margin="40,20,40,20"/>
+                    <Button Text="查看全部二手房源" Clicked="Button_Clicked" BackgroundColor="#58ab88" TextColor="Green" HorizontalOptions="Fill" VerticalOptions="Center" Margin="40,20,40,20"/>
 
                     <StackLayout HeightRequest="20"></StackLayout>
 

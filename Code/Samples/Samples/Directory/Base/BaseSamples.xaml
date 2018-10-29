@@ -3,45 +3,54 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Samples.BaseSamples">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="基础示例" VerticalOptions="Start" HorizontalOptions="Center" Margin="0,20,0,0" />
+        <ScrollView Orientation="Vertical" HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never">
+            <StackLayout>
 
-            <StackLayout Margin="0,20,0,0" >
-                <Button Text="Layout(布局)" Clicked="LayoutSamples_Clicked" />
+                <Label Text="基础示例" VerticalOptions="Start" HorizontalOptions="Center" Margin="0,20,0,0" />
+
+                <StackLayout Margin="0,20,0,0" >
+                    <Button Text="Layout(布局)" Clicked="LayoutSamples_Clicked" />
+                </StackLayout>
+
+
+                <StackLayout Margin="0,20,0,0" >
+                    <Button Text="Button(按钮)" Clicked="ButtonSamples_Clicked" />
+                </StackLayout>
+
+                <StackLayout Margin="0,20,0,0" >
+                    <Button Text="BoxView(盒子视图)" Clicked="BoxViewSamples_Clicked" />
+                </StackLayout>
+
+                <StackLayout Margin="0,20,0,0" >
+                    <Button Text="Entry(输入框)" Clicked="EntrySamples_Clicked" />
+                </StackLayout>
+
+                <StackLayout Margin="0,20,0,0" >
+                    <Button Text="Label(文本)" Clicked="LabelSamples_Clicked" />
+                </StackLayout>
+
+                <StackLayout Margin="0,20,0,0" >
+                    <Button Text="Image(图片)" Clicked="ImageSamples_Clicked" />
+                </StackLayout>
+
+                <StackLayout Margin="0,20,0,0" >
+                    <Button Text="ListView(列表视图)" Clicked="ListViewSamples_Clicked" />
+                </StackLayout>
+
+                <StackLayout Margin="0,20,0,0" >
+                    <Button Text="WebView(网页视图)" Clicked="WebViewSamples_Clicked" />
+                </StackLayout>
+
+                <StackLayout Margin="0,20,0,0" >
+                    <Button Text="Navigation(导航)" Clicked="NavigationSamples_Clicked" />
+                </StackLayout>
+
+                <StackLayout Margin="0,20,0,0" >
+                    <Button Text="Screen(屏幕)" Clicked="ScreenSamples_Clicked" />
+                </StackLayout>
             </StackLayout>
-
-
-            <StackLayout Margin="0,20,0,0" >
-                <Button Text="Button(按钮)" Clicked="ButtonSamples_Clicked" />
-            </StackLayout>
-
-            <StackLayout Margin="0,20,0,0" >
-                <Button Text="BoxView(盒子视图)" Clicked="BoxViewSamples_Clicked" />
-            </StackLayout>
-
-            <StackLayout Margin="0,20,0,0" >
-                <Button Text="Entry(输入框)" Clicked="EntrySamples_Clicked" />
-            </StackLayout>
-
-            <StackLayout Margin="0,20,0,0" >
-                <Button Text="Label(文本)" Clicked="LabelSamples_Clicked" />
-            </StackLayout>
-
-            <StackLayout Margin="0,20,0,0" >
-                <Button Text="Image(图片)" Clicked="ImageSamples_Clicked" />
-            </StackLayout>
-
-            <StackLayout Margin="0,20,0,0" >
-                <Button Text="ListView(列表视图)" Clicked="ListViewSamples_Clicked" />
-            </StackLayout>
-
-            <StackLayout Margin="0,20,0,0" >
-                <Button Text="WebView(网页视图)" Clicked="WebViewSamples_Clicked" />
-            </StackLayout>
-
-            <StackLayout Margin="0,20,0,0" >
-                <Button Text="Navigation(导航)" Clicked="NavigationSamples_Clicked" />
-            </StackLayout>
-        </StackLayout>
+        </ScrollView>
+        
+        
     </ContentPage.Content>
 </ContentPage>

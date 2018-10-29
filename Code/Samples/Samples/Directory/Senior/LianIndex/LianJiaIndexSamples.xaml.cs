@@ -51,6 +51,11 @@ namespace Samples.Directory.Senior.LianIndex
                 searchText.BackgroundColor = Color.White;
             }
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new BaseSamples());
+        }
     }
 
     public class LianJiaIndexViewModel : INotifyPropertyChanged
