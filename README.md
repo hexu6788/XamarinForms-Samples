@@ -22,7 +22,7 @@
    * [仿链家登录页面](https://github.com/hexu6788/XamarinForms-Samples/wiki/%E4%BB%BF%E9%93%BE%E5%AE%B6%E7%99%BB%E5%BD%95%E9%A1%B5%E9%9D%A2%E5%B8%83%E5%B1%80%E7%A4%BA%E4%BE%8B "仿链家登录页面")
    * [仿链家我的页面](https://github.com/hexu6788/XamarinForms-Samples/wiki/%E4%BB%BF%E9%93%BE%E5%AE%B6%E6%88%91%E7%9A%84%E9%A1%B5%E9%9D%A2%E5%B8%83%E5%B1%80%E7%A4%BA%E4%BE%8B "仿链家我的页面")
    * [仿链家首页](https://github.com/hexu6788/XamarinForms-Samples/wiki/%E4%BB%BF%E9%93%BE%E5%AE%B6%E9%A6%96%E9%A1%B5%E5%B8%83%E5%B1%80%E7%A4%BA%E4%BE%8B "仿链家首页")
-
+   * [仿链家启动页](https://github.com/hexu6788/XamarinForms-Samples/wiki/%E4%BB%BF%E9%93%BE%E5%AE%B6%E5%90%AF%E5%8A%A8%E9%A1%B5 "仿链家启动页")
 
 
 ### 引用
