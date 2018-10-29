@@ -54,7 +54,7 @@ namespace Samples.Directory.Senior.LianIndex
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new BaseSamples());
+            Navigation.PushAsync(new DirectorySamples());
         }
     }
 

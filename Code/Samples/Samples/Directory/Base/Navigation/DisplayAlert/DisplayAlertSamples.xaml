@@ -1,17 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Samples.Directory.Base.Navigation.NavigationSamples">
+             x:Class="Samples.Directory.Base.Navigation.DisplayAlert.DisplayAlertSamples">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="导航示例" VerticalOptions="Start" HorizontalOptions="Center" Margin="0,20,0,0" />
-
+            
             <StackLayout Margin="0,20,0,0" >
-                <Button Text="TabbedPage(Tab页)" Clicked="TabbedPageSamples_Clicked" />
+                <Button Text="显示弹出窗口" Clicked="Button_Clicked" />
             </StackLayout>
 
             <StackLayout Margin="0,20,0,0" >
-                <Button Text="DisplayAlert(显示弹出框)" Clicked="DisplayAlertSamples_Clicked" />
+                <Button Text="对话框" Clicked="Button_Clicked_1" />
+            </StackLayout>
+
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="底部Sheet" Clicked="Button_Clicked_2" />
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

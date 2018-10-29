@@ -1,4 +1,5 @@
-﻿using Samples.Directory.Base.Navigation.TabbedPage;
+﻿using Samples.Directory.Base.Navigation.DisplayAlert;
+using Samples.Directory.Base.Navigation.TabbedPage;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,5 +23,11 @@ namespace Samples.Directory.Base.Navigation
         {
             Navigation.PushAsync(new TabbedPageSamples());
         }
+
+        private void DisplayAlertSamples_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new DisplayAlertSamples());
+        }
+        
     }
 }

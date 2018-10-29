@@ -76,6 +76,9 @@
     <EmbeddedResource Update="Directory\Base\ListView\ListViewSamples.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Directory\Base\Navigation\DisplayAlert\DisplayAlertSamples.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Directory\Base\Navigation\NavigationSamples.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
