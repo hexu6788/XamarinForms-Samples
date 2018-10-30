@@ -29,7 +29,11 @@
             <StackLayout Margin="0,20,0,0" >
                 <Button Text="TencentMap(腾讯地图)" Clicked="TencentMapSamples_Clicked" />
             </StackLayout>
-
+            
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="GaodeMap(高德地图)" Clicked="GaodeMapSamples_Clicked" />
+            </StackLayout>
+            
         </StackLayout>
 
 

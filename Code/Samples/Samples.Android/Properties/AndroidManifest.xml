@@ -9,4 +9,7 @@
 	<application android:label="Samples.Android">
     <meta-data android:name="TencentMapSDK" android:value="NU4BZ-SLKA6-SPTS4-M3CNW-C3RPQ-LJBKH"/>
   </application>
+
+
+  
 </manifest>

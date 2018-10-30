@@ -25,8 +25,6 @@ namespace Samples.Droid
 
             CarouselViewRenderer.Init();
 
-
-
             LoadApplication(new App());
 
 

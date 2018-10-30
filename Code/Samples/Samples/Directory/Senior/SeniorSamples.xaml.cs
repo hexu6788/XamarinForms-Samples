@@ -1,5 +1,6 @@
 ﻿
 using Samples.Directory.Senior.CarouselView1;
+using Samples.Directory.Senior.GaodeMap;
 using Samples.Directory.Senior.LianIndex;
 using Samples.Directory.Senior.LianJiaLoginStatic;
 using Samples.Directory.Senior.LianJiaMy;
@@ -53,11 +54,14 @@ namespace Samples
 
         private void TencentMapSamples_Clicked(object sender, EventArgs e)
         {
-           
-
             Navigation.PushAsync(new TencentMapSamples());
         }
 
+        private void GaodeMapSamples_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new GaodeMapSamples());
+        }
 
+        
     }
 }
