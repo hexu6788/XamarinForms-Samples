@@ -115,6 +115,9 @@
     <EmbeddedResource Update="Directory\Senior\SeniorSamples.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Directory\Senior\TencentMap\TencentMapSamples.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>

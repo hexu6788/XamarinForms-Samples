@@ -26,6 +26,10 @@
                 <Button Text="LianJiaStart(仿lianjia启动页)" Clicked="LianJiaStartSamples_Clicked" />
             </StackLayout>
 
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="TencentMap(腾讯地图)" Clicked="TencentMapSamples_Clicked" />
+            </StackLayout>
+
         </StackLayout>
 
 

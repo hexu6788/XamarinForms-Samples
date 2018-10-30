@@ -4,6 +4,7 @@ using Samples.Directory.Senior.LianIndex;
 using Samples.Directory.Senior.LianJiaLoginStatic;
 using Samples.Directory.Senior.LianJiaMy;
 using Samples.Directory.Senior.LianJiaStart;
+using Samples.Directory.Senior.TencentMap;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,12 +16,12 @@ using Xamarin.Forms.Xaml;
 
 namespace Samples
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class SeniorSamples : ContentPage
-	{
-		public SeniorSamples()
-		{
-			InitializeComponent ();
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class SeniorSamples : ContentPage
+    {
+        public SeniorSamples()
+        {
+            InitializeComponent();
 
         }
 
@@ -50,7 +51,13 @@ namespace Samples
             Navigation.PushAsync(new LianJiaStartSamples());
         }
 
-        
+        private void TencentMapSamples_Clicked(object sender, EventArgs e)
+        {
+           
+
+            Navigation.PushAsync(new TencentMapSamples());
+        }
+
 
     }
 }
