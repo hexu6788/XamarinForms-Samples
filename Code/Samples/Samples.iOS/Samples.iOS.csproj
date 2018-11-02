@@ -161,5 +161,33 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\close.png" />
+    <BundleResource Include="Resources\start_1.jpg" />
+    <BundleResource Include="Resources\start_2.jpg" />
+    <BundleResource Include="Resources\start_3.jpg" />
+    <BundleResource Include="Resources\search.png" />
+    <BundleResource Include="Resources\down.png" />
+    <BundleResource Include="Resources\gear.png" />
+    <BundleResource Include="Resources\head.png" />
+    <BundleResource Include="Resources\l1.jpg" />
+    <BundleResource Include="Resources\l2.jpg" />
+    <BundleResource Include="Resources\l3.jpg" />
+    <BundleResource Include="Resources\l4.jpg" />
+    <BundleResource Include="Resources\l5.jpg" />
+    <BundleResource Include="Resources\m1.png" />
+    <BundleResource Include="Resources\m2.png" />
+    <BundleResource Include="Resources\m3.png" />
+    <BundleResource Include="Resources\m4.png" />
+    <BundleResource Include="Resources\m6.png" />
+    <BundleResource Include="Resources\m7.png" />
+    <BundleResource Include="Resources\m8.png" />
+    <BundleResource Include="Resources\my_1.jpg" />
+    <BundleResource Include="Resources\my_2.jpg" />
+    <BundleResource Include="Resources\my_3.jpg" />
+    <BundleResource Include="Resources\my_4.jpg" />
+    <BundleResource Include="Resources\r.jpg" />
+    <BundleResource Include="Resources\s1.jpg" />
+    <BundleResource Include="Resources\s2.jpg" />
+    <BundleResource Include="Resources\s3.jpg" />
+    <BundleResource Include="Resources\s4.jpg" />
   </ItemGroup>
 </Project>

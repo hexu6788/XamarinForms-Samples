@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Samples.Directory.Base.Layout.StackLayout.StackLayoutSamples"
@@ -9,31 +9,31 @@
             <StackLayout Orientation="Vertical">
                 <StackLayout>
 
-                    <local:SampleNavigation Text="示例：设置高度500，宽度200的堆栈布局" XamlCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml" CSharpCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml.cs"/>
+                    <local:SampleNavigation Text="示例：设置高度50，宽度50的堆栈布局(垂直布局时，设置宽度无用)" XamlCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml" CSharpCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml.cs"/>
 
-                    <StackLayout WidthRequest="200" HeightRequest="50" BackgroundColor="Yellow"></StackLayout>
+                    <StackLayout WidthRequest="50" HeightRequest="50" BackgroundColor="Silver"></StackLayout>
                 </StackLayout>
 
                 <StackLayout>
                     <local:SampleNavigation Text="示例：设置堆栈布局背景颜色为Red" XamlCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml" CSharpCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml.cs"/>
                     
-                    <StackLayout WidthRequest="100" HeightRequest="100" BackgroundColor="Blue"></StackLayout>
+                    <StackLayout WidthRequest="100" HeightRequest="100" BackgroundColor="Red"></StackLayout>
                 </StackLayout>
 
                 <StackLayout>
                     <local:SampleNavigation Text="示例：设置堆栈布局背景颜色为#FFB6C1" XamlCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml" CSharpCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml.cs"/>
                     
-                    <StackLayout WidthRequest="100" HeightRequest="100" BackgroundColor="#FFB6C1"></StackLayout>
+                    <StackLayout WidthRequest="100" HeightRequest="100" BackgroundColor="#ffa500"></StackLayout>
                 </StackLayout>
 
                 <StackLayout>
-                    <local:SampleNavigation Text="示例：设置堆栈布局背景颜色为RGB(125, 0, 0)" XamlCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml" CSharpCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml.cs"/>
+                    <local:SampleNavigation Text="示例：设置堆栈布局背景颜色为黄色：RGB(254, 255, 9)" XamlCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml" CSharpCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml.cs"/>
 
                     <StackLayout x:Name="StackLayoutSamples_4" WidthRequest="100" HeightRequest="100"></StackLayout>
                 </StackLayout>
 
                 <StackLayout>
-                    <local:SampleNavigation Text="示例：设置堆栈布局背景颜色为RGBA(125, 0, 0, 0.5)" XamlCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml" CSharpCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml.cs"/>
+                    <local:SampleNavigation Text="示例：设置堆栈布局背景颜色为黄色、透明度一半：RGBA(254, 255, 9, 128)" XamlCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml" CSharpCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml.cs"/>
 
                     <StackLayout x:Name="StackLayoutSamples_5" WidthRequest="100" HeightRequest="100"></StackLayout>
                 </StackLayout>
@@ -41,7 +41,7 @@
                 <StackLayout>
                     <local:SampleNavigation Text="示例：设置堆栈布局方向为垂直布局方式" XamlCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml" CSharpCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml.cs"/>
 
-                    <StackLayout WidthRequest="500" HeightRequest="500" Orientation="Vertical" BackgroundColor="Red">
+                    <StackLayout WidthRequest="200" HeightRequest="300" Orientation="Vertical" BackgroundColor="Green">
                         <Label Text="垂直布局"/>
                         <Label Text="垂直布局"/>
                         <Label Text="垂直布局"/>
@@ -51,7 +51,7 @@
                 <StackLayout>
                     <local:SampleNavigation Text="示例：设置堆栈布局方向为水平布局方式" XamlCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml" CSharpCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml.cs"/>
 
-                    <StackLayout WidthRequest="500" HeightRequest="500" Orientation="Horizontal" BackgroundColor="Red">
+                    <StackLayout WidthRequest="200" HeightRequest="300" Orientation="Horizontal" BackgroundColor="#87ceeb">
                         <Label Text="水平布局"/>
                         <Label Text="水平布局"/>
                         <Label Text="水平布局"/>
@@ -61,11 +61,12 @@
                 <StackLayout>
                     <local:SampleNavigation Text="示例：设置堆栈布局Margin" XamlCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml" CSharpCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml.cs"/>
 
-                    <StackLayout WidthRequest="200" HeightRequest="200" Orientation="Horizontal" BackgroundColor="Red">
-                        <Label Text="设置堆栈布局Margin 为 10" Margin="10,10,10,10" BackgroundColor="White"/>
-                        <Label Text="设置堆栈布局Margin Left 为 30" Margin="30,0,0,0" BackgroundColor="Yellow"/>
-                        <Label Text="设置堆栈布局Margin Top 为 40" Margin="0,40,0,0" BackgroundColor="Blue"/>
-                        <Label Text="设置堆栈布局Margin Bottom 为 5" Margin="0,0,0,5" BackgroundColor="Green"/>
+                    <StackLayout WidthRequest="200" HeightRequest="200" Orientation="Horizontal" BackgroundColor="Silver">
+                        <Label Text="设置堆栈布局Margin Left 为 20" Margin="20,0,0,0" BackgroundColor="Red"/>
+                        <Label Text="设置堆栈布局Margin Top 为 20" Margin="0,20,0,0" BackgroundColor="Yellow"/>
+                        <Label Text="设置堆栈布局Margin Right 为 20" Margin="0,0,20,0" BackgroundColor="Green"/>
+                        <Label Text="设置堆栈布局Margin Bottom 为 20" Margin="0,0,0,20" BackgroundColor="Blue"/>
+                        <Label Text="设置堆栈布局Margin 为 10" Margin="10,10,10,10" BackgroundColor="Purple"/>
                     </StackLayout>
                 </StackLayout>
 
@@ -73,8 +74,8 @@
                 <StackLayout>
                     <local:SampleNavigation Text="示例：设置堆栈布局Padding" XamlCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml" CSharpCodeUrl="Directory/Base/Layout/StackLayout/StackLayoutSamples.xaml.cs"/>
 
-                    <StackLayout WidthRequest="200" HeightRequest="200" Padding="20" Orientation="Horizontal" BackgroundColor="Red">
-                        <Label Text="设置堆栈布局Padding 为 10" Margin="10,10,10,10" BackgroundColor="White"/>
+                    <StackLayout WidthRequest="200" HeightRequest="200" Padding="20" Orientation="Horizontal" BackgroundColor="Silver">
+                        <Label Text="设置堆栈布局Padding 为 20" BackgroundColor="Red"/>
                     </StackLayout>
                 </StackLayout>
 

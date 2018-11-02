@@ -32,7 +32,7 @@ namespace Samples.Directory.Senior.LianJiaStart
             var count = (carouselView.ItemsSource as ObservableCollection<LianJiaStartModel>).Count;
 
 
-            if(carouselView.Position == count - 1 && e.NewValue == 0 && e.Direction == CarouselView.FormsPlugin.Abstractions.ScrollDirection.Right)
+            if(carouselView.Position == count - 1  && e.Direction == CarouselView.FormsPlugin.Abstractions.ScrollDirection.Right)
                 Application.Current.MainPage = new NavigationPage(new LianJiaIndexSamples());
         }
     }
