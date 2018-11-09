@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Layout.Grid">
+    <ContentPage.Content>
+        <!--定义网格行间隙为2，列间隙为2-->
+        <Grid RowSpacing="2" ColumnSpacing="2" BackgroundColor="#A8A8A8">
+            
+            <!--定义一个5行，4列的表格-->
+            <Grid.RowDefinitions>
+                <!--设置行高为100-->
+                <RowDefinition Height="100"></RowDefinition>
+                <!--减去行高100后，按照1/10高度（此网格定义了10）计算-->
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="2*"></RowDefinition>
+                <!--减去行高100后，按照3/10高度（此网格定义了10）计算-->
+                <RowDefinition Height="3*"></RowDefinition>
+                <!--减去行高100后，按照4/10高度（此网格定义了10）计算-->
+                <RowDefinition Height="4*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <!--按照1/5宽度（此网格定义了5）计算-->
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <!--按照2/5宽度（此网格定义了5）计算-->
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <!--设置元素在网格的第0行0列-->
+            <StackLayout BackgroundColor="#91e2f4" Grid.Row="0" Grid.Column="0">
+                <Label Text="第0行0列"/>
+            </StackLayout>
+            <!--设置元素在网格的第0行1列，跨2列-->
+            <StackLayout BackgroundColor="#91e2f4" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2">
+                <Label Text="第0行1列，跨2列"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="#91e2f4" Grid.Row="0" Grid.Column="3">
+                <Label Text="第0行3列"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="#91e2f4" Grid.Row="1" Grid.Column="0">
+                <Label Text="第1行0列"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="#91e2f4" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3">
+                <Label Text="第1行1列，跨3列"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="#91e2f4" Grid.Row="2" Grid.Column="0">
+                <Label Text="第2行0列"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="#91e2f4" Grid.Row="2" Grid.Column="1">
+                <Label Text="第2行1列"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="#91e2f4" Grid.Row="2" Grid.Column="2">
+                <Label Text="第2行2列"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="#91e2f4" Grid.Row="2" Grid.Column="3">
+                <Label Text="第2行3列"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="#91e2f4" Grid.Row="3" Grid.Column="0">
+                <Label Text="第3行0列"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="#91e2f4" Grid.Row="3" Grid.Column="1">
+                <Label Text="第3行1列"/>
+            </StackLayout>
+            <!--设置元素在网格的第3行2列，跨2行-->
+            <StackLayout BackgroundColor="#91e2f4" Grid.Row="3" Grid.Column="2" Grid.RowSpan="2">
+                <Label Text="第3行2列，跨2行"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="#91e2f4" Grid.Row="3" Grid.Column="3">
+                <Label Text="第3行3列"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="#91e2f4" Grid.Row="4" Grid.Column="0">
+                <Label Text="第4行0列"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="#91e2f4" Grid.Row="4" Grid.Column="1">
+                <Label Text="第4行1列"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="#91e2f4" Grid.Row="4" Grid.Column="3">
+                <Label Text="第4行3列"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

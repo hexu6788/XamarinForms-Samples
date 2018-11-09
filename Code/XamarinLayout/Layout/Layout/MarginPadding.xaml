@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Layout.MarginPadding">
+    <ContentPage.Content>
+
+        <StackLayout BackgroundColor="#A8A8A8">
+
+            <StackLayout BackgroundColor="#f9d33c" Margin="60,60,60,60" Padding="30,30,30,30">
+                <StackLayout BackgroundColor="#91e2f4" WidthRequest="200" HeightRequest="100">
+                    <Label Text="Child"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout BackgroundColor="#f9d33c" Margin="60,60,60,60" Padding="30,30,30,30">
+                <StackLayout BackgroundColor="#91e2f4" WidthRequest="200" HeightRequest="100">
+                    <Label Text="Child"/>
+                </StackLayout>
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

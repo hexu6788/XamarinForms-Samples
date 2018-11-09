@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Layout.AbsoluteLayout">
+    <ContentPage.Content>
+
+        <AbsoluteLayout>
+
+            <!--LayoutBounds X,Y,Width,Height 为比例（最大1）-->
+            <StackLayout BackgroundColor="#f9d33c" 
+                         AbsoluteLayout.LayoutBounds="0,0,0.3,0.1" 
+                         AbsoluteLayout.LayoutFlags="All">
+                <Label Text="0,0,0.3,0.1,All"/>
+            </StackLayout>
+
+            <!--LayoutBounds X,Y,Width,Height 为绝对值-->
+            <StackLayout BackgroundColor="#f9d33c" 
+                         AbsoluteLayout.LayoutBounds="100,100,150,25" 
+                         AbsoluteLayout.LayoutFlags="None">
+                <Label Text="100,100,150,25,None"/>
+            </StackLayout>
+
+            <!--LayoutBounds Width 为比例，X,Y,Height 为绝对值-->
+            <StackLayout BackgroundColor="#f9d33c" 
+                         AbsoluteLayout.LayoutBounds="100,130,0.7,30" 
+                         AbsoluteLayout.LayoutFlags="WidthProportional">
+                <Label Text="100,130,0.7,30,WidthProportional"/>
+            </StackLayout>
+
+            <!--LayoutBounds Height为比例，X,Y,Width 为绝对值-->
+            <StackLayout BackgroundColor="#f9d33c" 
+                         AbsoluteLayout.LayoutBounds="20,180,260,0.05" 
+                         AbsoluteLayout.LayoutFlags="HeightProportional">
+                <Label Text="20,180,260,0.05,HeightProportional"/>
+            </StackLayout>
+
+            <!--LayoutBounds X 为比例，Y,Width,Height 为绝对值-->
+            <StackLayout BackgroundColor="#f9d33c" 
+                         AbsoluteLayout.LayoutBounds="0.6,250,330,30" 
+                         AbsoluteLayout.LayoutFlags="XProportional">
+                <Label Text="0.6,250,330,30,XProportional"/>
+            </StackLayout>
+
+            <!--LayoutBounds Y 为比例，X,Width,Height 为绝对值-->
+            <StackLayout BackgroundColor="#f9d33c" 
+                         AbsoluteLayout.LayoutBounds="0,0.45,260,30" 
+                         AbsoluteLayout.LayoutFlags="YProportional">
+                <Label Text="0,0.45,260,30,YProportional"/>
+            </StackLayout>
+
+            <!--LayoutBounds X,Y 为比例，Width,Height 为绝对值-->
+            <StackLayout BackgroundColor="#f9d33c" 
+                         AbsoluteLayout.LayoutBounds="0.01,0.5,260,30" 
+                         AbsoluteLayout.LayoutFlags="PositionProportional">
+                <Label Text="0.01,0.5,260,30,PositionProportional"/>
+            </StackLayout>
+
+            <!--LayoutBounds Width,Height 为比例，X,Y 为绝对值-->
+            <StackLayout BackgroundColor="#f9d33c" 
+                         AbsoluteLayout.LayoutBounds="10,400,0.5,0.05" 
+                         AbsoluteLayout.LayoutFlags="SizeProportional">
+                <Label Text="10,400,0.5,0.05,SizeProportional"/>
+            </StackLayout>
+
+            <!--AbsoluteLayout可以重叠，先Render的被后Render的元素覆盖-->
+            <StackLayout BackgroundColor="Red" 
+                         AbsoluteLayout.LayoutBounds="10,450,0.5,0.05" 
+                         AbsoluteLayout.LayoutFlags="SizeProportional">
+                <Label Text="AbsoluteLayout可以重叠"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="Blue" 
+                         AbsoluteLayout.LayoutBounds="10,460,0.5,0.05" 
+                         AbsoluteLayout.LayoutFlags="SizeProportional">
+                <Label Text="AbsoluteLayout可以重叠"/>
+            </StackLayout>
+
+        </AbsoluteLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

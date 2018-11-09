@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Layout.LayoutOrientation">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout Orientation="Horizontal" BackgroundColor="#A8A8A8">
+                <Label Text="水平"/>
+                <Label Text="水平"/>
+                <Label Text="水平"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" BackgroundColor="#A8A8A8">
+                <Label Text="垂直"/>
+                <Label Text="垂直"/>
+                <Label Text="垂直"/>
+            </StackLayout>
+
+            <StackLayout BackgroundColor="#A8A8A8">
+                <Label Text="默认"/>
+                <Label Text="默认"/>
+                <Label Text="默认"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

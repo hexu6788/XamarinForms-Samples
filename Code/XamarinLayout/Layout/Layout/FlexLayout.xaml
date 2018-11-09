@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Layout.FlexLayout">
+    <ContentPage.Content>
+
+        <FlexLayout Direction="Column" JustifyContent="Start" AlignItems="Start" >
+
+            <StackLayout FlexLayout.Grow="1" BackgroundColor="Red" FlexLayout.Order="1"/>
+            <StackLayout FlexLayout.Grow="2" BackgroundColor="Green" FlexLayout.Order="2"/>
+            <StackLayout FlexLayout.Grow="3" BackgroundColor="Blue" FlexLayout.Order="3"/>
+
+            <Label BackgroundColor="Blue" FlexLayout.AlignSelf="Stretch" FlexLayout.Order="4">底部状态栏</Label>
+
+            <Label BackgroundColor="Green" FlexLayout.Basis="150" Text="欢迎使用Xamarin Forms"/>
+            <Label FlexLayout.Basis="150" Text="欢迎来到hexu6788"/>
+            <Button Text="点击按钮" FlexLayout.AlignSelf="Center" />
+        </FlexLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

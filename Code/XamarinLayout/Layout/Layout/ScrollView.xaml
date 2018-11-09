@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Layout.ScrollView">
+    <ContentPage.Content>
+
+        <ScrollView x:Name="scrollView" Orientation="Vertical" VerticalScrollBarVisibility="Never">
+            <StackLayout>
+                <StackLayout BackgroundColor="Red" HeightRequest="500"></StackLayout>
+                <StackLayout BackgroundColor="Yellow" HeightRequest="500"></StackLayout>
+                <StackLayout BackgroundColor="Blue" HeightRequest="500"></StackLayout>
+                <StackLayout BackgroundColor="Green" HeightRequest="500">
+                    <Button x:Name="button" Text="回到顶部(X,Y)" Clicked="Button_Clicked" VerticalOptions="EndAndExpand"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

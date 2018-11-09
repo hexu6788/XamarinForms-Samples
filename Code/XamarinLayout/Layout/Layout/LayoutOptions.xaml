@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Layout.LayoutOptions">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#A8A8A8">
+
+            
+            <StackLayout BackgroundColor="#f9d33c">
+                <!--Start_1在水平选项最左侧位置-->
+                <StackLayout BackgroundColor="#91e2f4" HorizontalOptions="Start">
+                    <Label Text="Start_1"/>
+                </StackLayout>
+
+                <!--Center_1在水平选项中间位置-->
+                <StackLayout BackgroundColor="#91e2f4" HorizontalOptions="Center">
+                    <Label Text="Center_1"/>
+                </StackLayout>
+
+                <!--End_1在水平选项中最右侧位置-->
+                <StackLayout BackgroundColor="#91e2f4" HorizontalOptions="End">
+                    <Label Text="End_1"/>
+                </StackLayout>
+
+                <!--Fill_1占满了整个水平选项-->
+                <StackLayout BackgroundColor="#91e2f4" HorizontalOptions="Fill">
+                    <Label Text="Fill_1"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout BackgroundColor="#f9d33c" Orientation="Horizontal">
+                <!--Start_A在水平选项最左侧位置-->
+                <StackLayout BackgroundColor="#91e2f4" HorizontalOptions="Start">
+                    <Label Text="Start_A"/>
+                </StackLayout>
+
+                <!--Center_A依次排列-->
+                <StackLayout BackgroundColor="#91e2f4" HorizontalOptions="Center">
+                    <Label Text="Center_A"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout BackgroundColor="#f9d33c" Orientation="Horizontal">
+                <!--Start_2在水平选项最左侧位置-->
+                <StackLayout BackgroundColor="#91e2f4" HorizontalOptions="Start">
+                    <Label Text="Start_2"/>
+                </StackLayout>
+
+                <!--EndAndExpand_2填充剩余区域后靠最右侧显示-->
+                <StackLayout BackgroundColor="#91e2f4" HorizontalOptions="EndAndExpand">
+                    <Label Text="EndAndExpand_2"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout BackgroundColor="#f9d33c" Orientation="Horizontal">
+                <!--Start_3在水平选项最左侧位置-->
+                <StackLayout BackgroundColor="#91e2f4" HorizontalOptions="Start">
+                    <Label Text="Start_3"/>
+                </StackLayout>
+
+                <!--CenterAndExpand_3填充剩余区域后再居中显示-->
+                <StackLayout BackgroundColor="#91e2f4" HorizontalOptions="CenterAndExpand">
+                    <Label Text="CenterAndExpand_3"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout BackgroundColor="#f9d33c" Orientation="Horizontal">
+                <!--StartAndExpand_4填充剩余区域后，在最左侧显示-->
+                <StackLayout BackgroundColor="#91e2f4" HorizontalOptions="StartAndExpand">
+                    <Label Text="StartAndExpand_4"/>
+                </StackLayout>
+
+                <!--CenterAndExpand_4填充剩余区域后，再居中显示-->
+                <StackLayout BackgroundColor="#91e2f4" HorizontalOptions="CenterAndExpand">
+                    <Label Text="CenterAndExpand_4"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout BackgroundColor="#f9d33c" Orientation="Horizontal">
+                <!--CenterAndExpand_5_1填充剩余区域后，再居中显示-->
+                <StackLayout BackgroundColor="#91e2f4" HorizontalOptions="CenterAndExpand">
+                    <Label Text="CenterAndExpand_5_1"/>
+                </StackLayout>
+
+                <!--CenterAndExpand_5_2填充剩余区域后，再居中显示-->
+                <StackLayout BackgroundColor="#91e2f4" HorizontalOptions="CenterAndExpand">
+                    <Label Text="CenterAndExpand_5_2"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout BackgroundColor="#f9d33c" Orientation="Horizontal">
+                <!--FillAndExpand_6填充整个剩余部分-->
+                <StackLayout BackgroundColor="#91e2f4" HorizontalOptions="FillAndExpand">
+                    <Label Text="FillAndExpand_6"/>
+                </StackLayout>
+            </StackLayout>
+            
+            <StackLayout BackgroundColor="#f9d33c" VerticalOptions="FillAndExpand">
+                <!--VerticalOptions=CenterAndExpand垂直方向填充居中显示-->
+                <StackLayout BackgroundColor="#91e2f4" VerticalOptions="CenterAndExpand">
+                    <Label Text="VerticalOptions=CenterAndExpand"/>
+                </StackLayout>
+                <!--VerticalOptions=EndAndExpand垂直方向填充靠下显示-->
+                <StackLayout BackgroundColor="#91e2f4" VerticalOptions="EndAndExpand">
+                    <Label Text="VerticalOptions=EndAndExpand"/>
+                </StackLayout>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
