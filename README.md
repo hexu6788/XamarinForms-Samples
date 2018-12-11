@@ -20,6 +20,12 @@
    * Map(地图)
         * [GaodeMap(高德地图)](https://github.com/hexu6788/XamarinForms-Samples/wiki/%E5%9C%B0%E5%9B%BE%E7%A4%BA%E4%BE%8B "GaodeMap(高德地图)")
         * [TencentMap(腾讯地图)](https://github.com/hexu6788/XamarinForms-Samples/wiki/%E5%9C%B0%E5%9B%BE%E7%A4%BA%E4%BE%8B "TencentMap(腾讯地图)")
+        
+* SQLite数据库
+   * [INSERT](https://github.com/hexu6788/XamarinForms-Samples/wiki/%E8%BD%AE%E6%92%AD%E5%9B%BE1-Android "轮播图1")
+   * [DELETE](https://github.com/hexu6788/XamarinForms-Samples/wiki/%E8%BD%AE%E6%92%AD%E5%9B%BE1-Android "轮播图1")
+   * [SELECT](https://github.com/hexu6788/XamarinForms-Samples/wiki/%E8%BD%AE%E6%92%AD%E5%9B%BE1-Android "轮播图1")
+   * [UPDATE](https://github.com/hexu6788/XamarinForms-Samples/wiki/%E8%BD%AE%E6%92%AD%E5%9B%BE1-Android "轮播图1")
    
 * 高级
    * [轮播图1](https://github.com/hexu6788/XamarinForms-Samples/wiki/%E8%BD%AE%E6%92%AD%E5%9B%BE1-Android "轮播图1")
