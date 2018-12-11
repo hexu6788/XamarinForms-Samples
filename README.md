@@ -22,6 +22,7 @@
         * [TencentMap(腾讯地图)](https://github.com/hexu6788/XamarinForms-Samples/wiki/%E5%9C%B0%E5%9B%BE%E7%A4%BA%E4%BE%8B "TencentMap(腾讯地图)")
         
 * SQLite数据库
+   * [CreateTable(建表)](https://github.com/hexu6788/XamarinForms-Samples/blob/master/Code/Samples/Samples/Directory/SQLite/INSERT/SQLiteInsert.xaml.cs "CreateTable(建表)")
    * [INSERT(新增)](https://github.com/hexu6788/XamarinForms-Samples/blob/master/Code/Samples/Samples/Directory/SQLite/INSERT/SQLiteInsert.xaml.cs "INSERT(新增)")
    * [DELETE(删除)](https://github.com/hexu6788/XamarinForms-Samples/wiki/%E8%BD%AE%E6%92%AD%E5%9B%BE1-Android "DELETE(删除)")
    * [SELECT(查询)](https://github.com/hexu6788/XamarinForms-Samples/blob/master/Code/Samples/Samples/Directory/SQLite/SELECT/SQLiteSELECT.xaml.cs "SELECT(查询)")
