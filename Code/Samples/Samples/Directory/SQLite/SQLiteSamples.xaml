@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Samples.Directory.SQLite.SQLiteSamples">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="SQLite示例" VerticalOptions="Start" HorizontalOptions="Center" Margin="0,20,0,0" />
+
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="CreateTable(建表操作)" Clicked="CreateTable_Clicked" />
+            </StackLayout>
+            
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="SELECT(查询操作)" Clicked="SELECT_Clicked" />
+            </StackLayout>
+            
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="INSERT(新增操作)" Clicked="Insert_Clicked" />
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

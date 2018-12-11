@@ -13,7 +13,10 @@ namespace Samples
         {
             InitializeComponent();
 
-            MainPage = new LianJiaStartSamples();
+            MainPage = new NavigationPage(new DirectorySamples())
+            {
+                Padding = new Thickness(0, 20, 0, 0)
+            };
 
             CurrentPage = MainPage;
         }

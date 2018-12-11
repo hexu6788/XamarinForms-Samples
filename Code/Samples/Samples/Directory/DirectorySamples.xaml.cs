@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+using Samples.Directory.SQLite;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,6 +27,10 @@ namespace Samples.Directory
             Navigation.PushAsync(new SeniorSamples());
         }
 
+        private void SQLiteSamples_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SQLiteSamples());
+        }
         
     }
 }

@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Samples.Directory.DirectorySamples">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Margin="0,20,0,0">
             <Label Text="欢迎来到Xamarin Forms 示例代码！" VerticalOptions="Start" HorizontalOptions="Center" Margin="0,20,0,0" />
 
             <StackLayout Margin="0,20,0,0" >
@@ -12,6 +12,10 @@
 
             <StackLayout Margin="0,20,0,0" >
                 <Button Text="Senior(高级)" Clicked="SeniorSamples_Clicked" />
+            </StackLayout>
+
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="SQLite(SQLite数据库)" Clicked="SQLiteSamples_Clicked" />
             </StackLayout>
 
         </StackLayout>
