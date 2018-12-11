@@ -30,9 +30,9 @@ namespace Samples.Directory.SQLite.INSERT
                 list.Add(new Subject() { id = "subject_2", name = "数学" });
                 list.Add(new Subject() { id = "subject_3", name = "英语" });
 
-                list.Add(new StudentSubject() { student_id = "stu_1", subject_id = "subject_1" });
-                list.Add(new StudentSubject() { student_id = "stu_1", subject_id = "subject_2" });
-                list.Add(new StudentSubject() { student_id = "stu_1", subject_id = "subject_3" });
+                list.Add(new StudentSubject() { id = "ss_1", student_id = "stu_1", subject_id = "subject_1" });
+                list.Add(new StudentSubject() { id = "ss_2", student_id = "stu_1", subject_id = "subject_2" });
+                list.Add(new StudentSubject() { id = "ss_3", student_id = "stu_1", subject_id = "subject_3" });
 
                 var result = con.InsertAll(list);
 

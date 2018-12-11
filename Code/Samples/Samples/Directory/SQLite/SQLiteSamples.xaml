@@ -18,6 +18,14 @@
                 <Button Text="INSERT(新增操作)" Clicked="Insert_Clicked" />
             </StackLayout>
 
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="UPDATE(修改操作)" Clicked="Update_Clicked" />
+            </StackLayout>
+
+            <StackLayout Margin="0,20,0,0" >
+                <Button Text="DELETE(删除操作)" Clicked="DELETE_Clicked" />
+            </StackLayout>
+            
         </StackLayout>
 
     </ContentPage.Content>

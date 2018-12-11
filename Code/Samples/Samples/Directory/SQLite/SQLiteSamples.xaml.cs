@@ -1,6 +1,8 @@
 ﻿using Samples.Directory.SQLite.CreateTable;
+using Samples.Directory.SQLite.DELETE;
 using Samples.Directory.SQLite.INSERT;
 using Samples.Directory.SQLite.SELECT;
+using Samples.Directory.SQLite.UPDATE;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,6 +32,16 @@ namespace Samples.Directory.SQLite
         private void Insert_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new SQLiteInsert()); 
+        }
+
+        private void Update_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SQLiteUpdate());
+        }
+
+        private void DELETE_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SQLiteDelete());
         }
     }
 }

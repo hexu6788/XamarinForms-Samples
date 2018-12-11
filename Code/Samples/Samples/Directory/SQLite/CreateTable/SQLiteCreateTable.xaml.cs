@@ -37,19 +37,26 @@ namespace Samples.Directory.SQLite.CreateTable
 
     public class Student
     {
+        [PrimaryKey]
         public string id { get; set; }
+
         public string name { get; set; }
         public int age { get; set; }
     }
 
     public class Subject
     {
+        [PrimaryKey]
         public string id { get; set; }
+
         public string name { get; set; }
     }
 
     public class StudentSubject
     {
+        [PrimaryKey]
+        public string id { get; set; }
+
         public string student_id { get; set; }
         public string subject_id { get; set; }
     }
