@@ -7,6 +7,7 @@ using Samples.Directory.Base.Label;
 using Samples.Directory.Base.ListView;
 using Samples.Directory.Base.Navigation;
 using Samples.Directory.Base.Screen;
+using Samples.Directory.Base.Video;
 using Samples.Directory.Base.WebView;
 using System;
 using System.Collections.Generic;
@@ -76,7 +77,11 @@ namespace Samples
         {
             Navigation.PushAsync(new ScreenSamples());
         }
-        
 
+        private void VideoSamples_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new VideoSamples());
+        }
+        
     }
 }

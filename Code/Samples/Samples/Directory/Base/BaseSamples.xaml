@@ -48,6 +48,10 @@
                 <StackLayout Margin="0,20,0,0" >
                     <Button Text="Screen(屏幕)" Clicked="ScreenSamples_Clicked" />
                 </StackLayout>
+
+                <StackLayout Margin="0,20,0,0" >
+                    <Button Text="Video(视频)" Clicked="VideoSamples_Clicked" />
+                </StackLayout>
             </StackLayout>
         </ScrollView>
         
